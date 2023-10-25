@@ -12,7 +12,7 @@ body {
 
 header {
     color: #8aa3b8;
-    height: 600px;
+    height: 100vh;
 }
 
 header .container-navbar {
@@ -20,13 +20,16 @@ header .container-navbar {
     justify-content: center;
     height: 10%;
     overflow: hidden;
+    align-items: center;
 }
 
 header .container-navbar ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
     padding: 0px;
     padding-top: 10px;
+    width: 100%;
 }
 
 header .container-navbar ul li {
