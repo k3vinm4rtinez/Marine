@@ -167,7 +167,7 @@ main .container-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 100%;
     width: 35%;
     color: #8aa3b8;
@@ -191,22 +191,36 @@ main .container-form form input, textarea {
     resize: none;
 }
 
+main .container-form .container-title-form {
+    display: flex;
+    flex-direction: column;
+}
+
+main .container-form h2 {
+    margin: 0px;
+}
+
 main .container-form form p {
     margin: 0px;
 }
 
 main .container-form .underline-form {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .container-form .underline-form img {
     width: 100px;
-    top: 1012px;
-    right: 190px;
 }
 
 main .container-form .arrow-form {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+main .container-form .arrow-form img {
     width: 80px;
-    top: 960px;
-    right: 245px;
     transform: rotate(-5deg);
 }
 
