@@ -128,8 +128,7 @@ main .first-content {
     align-items: center;
     height: 50%;
     background-color: #cfe1e6;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 main .second-content {
@@ -137,9 +136,126 @@ main .second-content {
     justify-content: space-between;
     height: 80vh;
     background-color: white;
-    padding-left: 5%;
+    padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+}
+
+main .first-content .container-first-text {
+    color: #8aa3b8;
+    text-align: center;
+    width: 40%;
+}
+
+main .first-content .container-first-text h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+main .first-content .container-first-text p {
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+main .first-content img {
+    height: 400px;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+main .container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+    color: #8aa3b8;
+    padding: 1%;
+}
+
+main .container-form form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+main .container-form form input, textarea {
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    border: 2px solid #8aa3b8;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    resize: none;
+}
+
+main .container-form form p {
+    margin: 0px;
+}
+
+main .container-form .underline-form {
+    position: absolute;
+    width: 100px;
+    top: 1012px;
+    right: 205px;
+}
+
+main .container-form .arrow-form {
+    position: absolute;
+    width: 90px;
+    top: 960px;
+    right: 240px;
+}
+
+/* TEXTO */
+
+main .second-content .container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+main .second-content .container-text .container-second-text {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+}
+
+main .second-content .container-text .container-second-text .rotate {
+    writing-mode: vertical-rl;
+    left: 0;
+    font-size: 36px;
+    transform: rotate(-180deg);
+    color: #8aa3b8;
+}
+
+main .second-content .container-text .container-second-text .rotate span {
+    font-size: 70px;
+}
+
+main .second-content .container-text .container-second-text ul {
+    list-style: none;
+    color: #cfe1e6;
+    padding: 0px;
+    margin-bottom: 70px;
+    position: absolute;
+    padding-left: 80px;
+}
+
+main .second-content .container-text .container-extra-text {
+    font-size: 36px;
+    display: flex;
+    color: #8aa3b8;
+    padding-left: 80px;
+    padding-top: 200px;
+    position: absolute;
+}
+
+main .second-content .container-text .container-extra-text .extra-text p {
+    margin: 0px;
 }
 
 main .container-icons {
@@ -159,63 +275,4 @@ main .container-icons img {
 
 main .container-icons img:hover {
     transform: scale(1.1);
-}
-
-main .first-content .container-first-text {
-    width: 40%;
-    color: #8aa3b8;
-}
-
-main .first-content .container-first-text p {
-    font-size: 40px;
-}
-
-main .container-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    width: 50%;
-    color: #8aa3b8;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding: 5%;
-}
-
-main .container-form form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-
-main .container-form form input, textarea {
-    margin-bottom: 2.5px;
-    margin-top: 2.5px;
-    border: 2px solid #8aa3b8;
-    border-radius: 8px;
-    padding: 10px;
-    width: 100%;
-    resize: none;
-}
-
-main .container-form form p {
-    margin: 0px;
-}
-
-main .container-form h2 span {
-    text-decoration: underline wavy;
-    text-decoration-thickness: 3px;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 10px;
-}
-
-main .second-content .container-second-text {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: #8aa3b8;
-    font-size: 18px;
 }
