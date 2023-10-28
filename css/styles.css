@@ -169,7 +169,7 @@ main .container-form {
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    width: 50%;
+    width: 35%;
     color: #8aa3b8;
     padding: 1%;
 }
@@ -177,7 +177,7 @@ main .container-form {
 main .container-form form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     align-items: center;
 }
 
@@ -199,14 +199,15 @@ main .container-form .underline-form {
     position: absolute;
     width: 100px;
     top: 1012px;
-    right: 205px;
+    right: 190px;
 }
 
 main .container-form .arrow-form {
     position: absolute;
-    width: 90px;
+    width: 80px;
     top: 960px;
-    right: 240px;
+    right: 245px;
+    transform: rotate(-5deg);
 }
 
 /* TEXTO */
@@ -261,12 +262,12 @@ main .second-content .container-text .container-extra-text .extra-text p {
 main .container-icons {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     height: 100%;
 }
 
 main .container-icons img {
-    width: 50px;
+    width: 45px;
     margin-top: 5%;
     margin-bottom: 5%;
     transition: all 0.5s;
