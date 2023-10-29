@@ -8,22 +8,21 @@ body {
     font-family: "Montserrat";
 }
 
-/* HEADER */
+/* NAV */
 
-header {
-    color: #8aa3b8;
-    height: 100vh;
-}
-
-header .container-navbar {
+.container-navbar {
     display: flex;
     justify-content: center;
     height: 10%;
     overflow: hidden;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.9);
 }
 
-header .container-navbar ul {
+.container-navbar ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -32,7 +31,7 @@ header .container-navbar ul {
     width: 100%;
 }
 
-header .container-navbar ul li {
+.container-navbar ul li {
     padding-left: 100px;
     padding-right: 100px;
     font-size: 26px;
@@ -40,23 +39,30 @@ header .container-navbar ul li {
     -webkit-transition: all 0.5s;
 }
 
-header .container-navbar ul li:hover {
+.container-navbar ul li:hover {
     transform: scale(1.1);
 }
 
-header .container-navbar ul li a {
+.container-navbar ul li a {
     color: #8aa3b8;
 }
 
-header .container-navbar ul li a:hover {
+.container-navbar ul li a:hover {
     color: #8aa3b8;
     text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    color: #8aa3b8;
+    height: 100vh;
 }
 
 header .container-title {
     display: flex;
     flex-direction: column;
-    height: 45%;
+    height: 50%;
     justify-content: flex-end;
 }
 
@@ -68,6 +74,7 @@ header .title {
 
 header .title img {
     width: 500px;
+    padding-bottom: 10px;
 }
 
 header .title hr {
@@ -85,13 +92,13 @@ header .title .line-2 {
 
 header .title h1 {
     font-size: 35px;
-    width: 120px;
+    width: 100%;
     margin: 0px;
 }
 
 header .foot {
     display: flex;
-    height: 45%;
+    height: 50%;
     background-color: #8aa3b8;
     color: white;
     align-items: center;
@@ -100,6 +107,7 @@ header .foot {
 }
 
 header .foot h2 {
+    font-size: 40px;
     width: 0px;
 }
 
@@ -122,14 +130,69 @@ main {
     height: 700px;
 }
 
+/* Primer bolque de contenido */
+
 main .first-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50%;
+    height: 50vh;
     background-color: #cfe1e6;
-    padding-right: 10%;
+    padding-right: 2%;
 }
+
+main .first-content .container-first-text {
+    display: flex;
+    flex-direction: column;
+    color: #8aa3b8;
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main .first-content .container-first-text h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+main .first-content .smile {
+    width: 8%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+}
+
+main .first-content .underline {
+    height: 7%;
+    width: 410px;
+    margin-bottom: 2%;
+}
+
+main .first-content .underline-form {
+    width: 40%;
+}
+
+
+main .first-content .container-first-text p {
+    margin: 0px;
+    font-size: 26px;
+    width: 90%;
+}
+
+main .first-content .container-tablet {
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+
+main .first-content .container-tablet .tablet {
+    height: 120%;
+    object-fit: contain;
+}
+
+/* Segundo bloque de contenido */
 
 main .second-content {
     display: flex;
@@ -141,26 +204,6 @@ main .second-content {
     padding-bottom: 2%;
 }
 
-main .first-content .container-first-text {
-    color: #8aa3b8;
-    text-align: center;
-    width: 40%;
-}
-
-main .first-content .container-first-text h1 {
-    font-size: 40px;
-    margin: 0px;
-}
-
-main .first-content .container-first-text p {
-    font-size: 18px;
-    margin-top: 5%;
-}
-
-main .first-content img {
-    height: 400px;
-}
-
 /* FORMULARIO DE CONTACTO */
 
 main .container-form {
@@ -169,7 +212,7 @@ main .container-form {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 35%;
+    width: 30%;
     color: #8aa3b8;
     padding: 1%;
 }
@@ -197,10 +240,12 @@ main .container-form .container-title-form {
 }
 
 main .container-form h2 {
+    font-size: 40px;
     margin: 0px;
 }
 
 main .container-form form p {
+    font-size: 25px;
     margin: 0px;
 }
 
@@ -216,7 +261,7 @@ main .container-form .underline-form img {
 main .container-form .arrow-form {
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 45px;
 }
 
 main .container-form .arrow-form img {
@@ -235,14 +280,14 @@ main .second-content .container-text {
 
 main .second-content .container-text .container-second-text {
     display: flex;
-    font-size: 22px;
+    font-size: 35px;
     align-items: center;
 }
 
 main .second-content .container-text .container-second-text .rotate {
     writing-mode: vertical-rl;
     left: 0;
-    font-size: 36px;
+    font-size: 60px;
     transform: rotate(-180deg);
     color: #8aa3b8;
 }
@@ -261,11 +306,11 @@ main .second-content .container-text .container-second-text ul {
 }
 
 main .second-content .container-text .container-extra-text {
-    font-size: 36px;
+    font-size: 60px;
     display: flex;
     color: #8aa3b8;
     padding-left: 80px;
-    padding-top: 200px;
+    padding-top: 350px;
     position: absolute;
 }
 
@@ -281,7 +326,7 @@ main .container-icons {
 }
 
 main .container-icons img {
-    width: 45px;
+    width: 70px;
     margin-top: 5%;
     margin-bottom: 5%;
     transition: all 0.5s;
@@ -290,4 +335,72 @@ main .container-icons img {
 
 main .container-icons img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1500px) {
+    
+    /* HEADER */
+
+    header .foot h2 {
+        font-size: 30px;
+    }
+
+    /* MAIN */
+
+    main .first-content .container-first-text h1 {
+        font-size: 200%;
+    }
+
+    main .first-content .container-first-text p {
+        font-size: 100%;
+    }
+
+    main .first-content .underline {
+        width: 270px;
+    }
+
+    main .second-content .container-text .container-second-text {
+        font-size: 23px;
+    }
+
+    main .second-content .container-text .container-second-text .rotate {
+        font-size: 40px;
+    }
+
+    main .second-content .container-text .container-second-text .rotate span {
+        font-size: 50px;
+    }
+
+    main .second-content .container-text .container-extra-text {
+        font-size: 40px;
+        padding-top: 230px;
+        padding-left: 60px;
+    }
+
+    main .second-content .container-text .container-second-text ul {
+        margin-bottom: 55px;
+        padding-left: 60px;
+    }
+
+    main .container-form h2 {
+        font-size: 30px;
+    }
+
+    main .container-form form p {
+        font-size: 20px;
+    }
+
+    main .container-icons img {
+        width: 50px;
+    }
+
+    main .container-form .underline-form img {
+        width: 80px;
+    }
+    
+    main .container-form .arrow-form img {
+        width: 70px;
+    }
+
+
 }
