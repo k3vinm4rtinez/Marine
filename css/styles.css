@@ -14,9 +14,9 @@ body {
     display: flex;
     justify-content: center;
     height: 10%;
-    overflow: hidden;
     align-items: center;
     position: fixed;
+    overflow: hidden;
     top: 0px;
     width: 100%;
     background-color: rgba(255,255,255, 0.9);
@@ -33,8 +33,6 @@ body {
     list-style: none;
     padding: 0px;
     padding-top: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
     width: 100%;
 }
 
@@ -57,6 +55,32 @@ body {
 .container-navbar ul li a:hover {
     color: #8aa3b8;
     text-decoration: none;
+}
+
+/* BURGER */
+
+.container-burger {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.burger-open, .burger-close {
+    display: none;
 }
 
 /* HEADER */
@@ -201,7 +225,6 @@ main .second-content {
     justify-content: space-between;
     height: 80vh;
     background-color: white;
-    padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
 }
@@ -358,13 +381,22 @@ main .container-icons img:hover {
 
     header .foot {
         padding-right: 0%;
+        overflow: hidden;
     }
 
     header .foot h2 {
         font-size: 30px;
     }
 
+    header .foot .container-img {
+        margin-left: 40%;
+    }
+
     /* MAIN */
+
+    main .first-content .container-tablet {
+        justify-content: center;
+    }
 
     main .first-content .container-first-text h1 {
         font-size: 200%;
@@ -437,22 +469,7 @@ main .container-icons img:hover {
         padding-right: 60px;
     }
 
-    /* HEADER */
-
-    header .foot {
-        overflow: hidden;
-    }
-
-    header .foot .container-img {
-        margin-right: 0%;
-        margin-left: 50%;
-    }
-
     /* MAIN */
-
-    main .first-content .container-tablet {
-        justify-content: center;
-    }
 
     main .container-form {
         width: 35%;
@@ -493,4 +510,79 @@ main .container-icons img:hover {
         width: 40px;
     }
 
+    main .second-content .container-text .container-extra-text {
+        padding-top: 190px;
+        padding-left: 45px;
+    }
+
+    main .second-content .container-text .container-extra-text .extra-text .p1 {
+        bottom: 15%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    /* NAV */
+
+    .container-navbar {
+        display: none;
+    }
+
+    /* BURGER */
+
+    .burger-open, .burger-close {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    .burger-open {
+        color: black;
+        font-size: 24px;
+    }
+
+    .burger-close {
+        color: #ffff;
+        font-size: 30px;
+    }
+
+    .nav-bar {
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 10px;
+        background-color: black;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav-bar.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        padding-top: 50px;
+    }
+
+    .nav-list a {
+        color: #ffff;
+    }
+        
+    /* HEADER */
+
+    header .foot .container-img {
+        margin-left: 50%;
+    }
 }
