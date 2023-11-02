@@ -69,7 +69,6 @@ body {
 header {
     color: #8aa3b8;
     height: 100vh;
-    width: 100vw;
 }
 
 header .container-title {
@@ -135,7 +134,6 @@ header .foot .container-img {
 header .foot .container-img img {
     object-fit: cover;
     height: 100%;
-    width: 100vw;
 }
 
 /* MAIN */
@@ -603,7 +601,7 @@ main .container-icons img:hover {
     }
 
     .foot .container-img {
-        margin-left: 35%!important;
+        margin-left: 15%!important;
     }
 
     .foot .container-img img {
