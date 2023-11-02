@@ -69,6 +69,7 @@ body {
 header {
     color: #8aa3b8;
     height: 100vh;
+    width: 100vw;
 }
 
 header .container-title {
@@ -81,6 +82,7 @@ header .container-title {
 header .title {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     padding-bottom: 10px;
 }
 
@@ -541,9 +543,10 @@ main .container-icons img:hover {
         bottom: 0px;
         background-color: rgba(255, 255, 255, 0.9);
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-        width: 30vw;
-        height: 100%;
+        width: 50vw;
+        height: 250vh;
         justify-content: flex-start;
+        z-index: 1;
     }
 
     #nav-bar.visible {
@@ -560,6 +563,7 @@ main .container-icons img:hover {
         width: 100%;
         margin: 0px;
         padding-bottom: 10px;
+        padding-top: 50px;
     }
 
     #nav-bar ul li {
@@ -586,18 +590,26 @@ main .container-icons img:hover {
         display: none;
     }
 
+    .line-2 {
+        width: 100px!important;
+        margin-left: 2%!important;
+    }
+
     header .title img {
-        width: 300px;
+        width: 350px;
     }
 
     header .title h1 {
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    .foot .container-img {
+        margin-left: 40%!important;
     }
 
     .foot .container-img img {
         content: url("./libs/img/tablet.png");
-        width: 600px;
-        margin-right: 20%;
+        width: 500px;
     }
 
     .first-content .container-tablet {
@@ -617,11 +629,11 @@ main .container-icons img:hover {
     }
 
     .second-content .container-form .container-title-form {
-        height: 70px;
+        height: 60px;
     }
 
     .second-content .container-form .container-title-form h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .second-content .container-text {
@@ -641,4 +653,17 @@ main .container-icons img:hover {
         padding: 20px;
     }
 
+}
+
+@media (max-width: 600px) {
+
+    .second-content .container-form {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    
 }
