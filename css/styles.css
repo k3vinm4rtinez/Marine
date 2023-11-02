@@ -678,11 +678,11 @@ main .container-icons img:hover {
     }
 
     header .foot .container-img {
-        margin-left: 0%!important;
+        margin-left: 10%!important;
     }
 
     header .foot .container-img img {
-        width: 700px;
+        width: 600px;
     }
 
     header .foot h2 {
