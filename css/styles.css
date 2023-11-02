@@ -667,16 +667,21 @@ main .container-icons img:hover {
 
     /* HEADER */
 
+    .line-2 {
+        display: none;
+    }
+
     header .container-title {
         height: 45%;
+        align-items: flex-end;
     }
 
     header .title img {
-        width: 240px;
+        width: 350px!important;
     }
 
     header .title h1 {
-        font-size: 17px;
+        font-size: 22px!important;
     }
 
     header .foot {
