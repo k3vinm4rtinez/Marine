@@ -669,8 +669,8 @@ main .container-icons img:hover {
 
     /* HEADER */
 
-    header {
-        height: 63vh;
+    header .container-title {
+        height: 30%;
     }
 
     header .title img {
@@ -679,6 +679,10 @@ main .container-icons img:hover {
 
     header .title h1 {
         font-size: 17px;
+    }
+
+    header .foot {
+        height: 70%;
     }
 
     header .foot h2 {
