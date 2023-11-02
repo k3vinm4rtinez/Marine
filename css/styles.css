@@ -543,7 +543,7 @@ main .container-icons img:hover {
         background-color: white;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         width: 60vw;
-        height: 250vh;
+        height: 100vh;
         justify-content: flex-start;
         z-index: 1;
     }
@@ -623,7 +623,6 @@ main .container-icons img:hover {
         padding: 0px!important;
         flex-direction: column;
         align-items: center; 
-        height: 100vh!important;
     }
 
     .second-content .container-form {
@@ -669,8 +668,8 @@ main .container-icons img:hover {
 
     /* HEADER */
 
-    header .container-title {
-        height: 40%;
+    header {
+        height: 63vh;
     }
 
     header .title img {
@@ -679,10 +678,6 @@ main .container-icons img:hover {
 
     header .title h1 {
         font-size: 17px;
-    }
-
-    header .foot {
-        height: 60%;
     }
 
     header .foot h2 {
@@ -695,6 +690,14 @@ main .container-icons img:hover {
 
     /* MAIN */
 
+    main {
+        height: 100vh;
+    }
+
+    main .first-content {
+        height: 50vh!important;
+    }
+
     main .first-content .container-first-text h1 {
         font-size: 28px;
     }
@@ -703,7 +706,15 @@ main .container-icons img:hover {
         font-size: 12px;
     }
 
-    .second-content .container-icons img {
+    main .second-content {
+        height: 50vh!important;
+    }
+
+    main .second-content .container-icons {
+        height: 0px;
+    }
+
+    main .second-content .container-icons img {
         width: 50px;
     }
 
