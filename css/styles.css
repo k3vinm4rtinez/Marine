@@ -623,6 +623,7 @@ main .container-icons img:hover {
         padding: 0px!important;
         flex-direction: column;
         align-items: center; 
+        height: 50vh!important;
     }
 
     .second-content .container-form {
@@ -685,7 +686,7 @@ main .container-icons img:hover {
     }
     
     .foot .container-img {
-        margin-left: 50%!important;
+        margin-left: 130px!important;
     }
 
     /* MAIN */
@@ -706,16 +707,17 @@ main .container-icons img:hover {
         font-size: 12px;
     }
 
-    main .second-content {
-        height: 50vh!important;
-    }
-
     main .second-content .container-icons {
-        height: 0px;
+        height: auto;
     }
 
     main .second-content .container-icons img {
         width: 50px;
     }
+
+}
+
+@media (max-width: 350px) {
+
 
 }
