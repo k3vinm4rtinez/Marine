@@ -133,8 +133,9 @@ header .foot .container-img {
 }
 
 header .foot .container-img img {
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
+    width: 100vw;
 }
 
 /* MAIN */
@@ -623,7 +624,7 @@ main .container-icons img:hover {
         padding: 0px!important;
         flex-direction: column;
         align-items: center; 
-        height: 50vh!important;
+        height: 60vh!important;
     }
 
     .second-content .container-form {
@@ -670,7 +671,7 @@ main .container-icons img:hover {
     /* HEADER */
 
     header .container-title {
-        height: 30%;
+        height: 40%;
     }
 
     header .title img {
@@ -682,17 +683,13 @@ main .container-icons img:hover {
     }
 
     header .foot {
-        height: 70%;
+        height: 60%;
     }
 
     header .foot h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
     
-    .foot .container-img {
-        margin-left: 130px!important;
-    }
-
     /* MAIN */
 
     main {
