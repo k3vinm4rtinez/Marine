@@ -128,12 +128,12 @@ header .foot .container-img {
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
 header .foot .container-img img {
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     width: 100vw;
 }
@@ -603,12 +603,11 @@ main .container-icons img:hover {
     }
 
     .foot .container-img {
-        margin-left: 40%!important;
+        margin-left: 35%!important;
     }
 
     .foot .container-img img {
         content: url("./libs/img/tablet.png");
-        width: 500px;
     }
 
     .first-content {
@@ -670,10 +669,6 @@ main .container-icons img:hover {
 
     /* HEADER */
 
-    header .container-title {
-        height: 40%;
-    }
-
     header .title img {
         width: 240px;
     }
@@ -682,12 +677,16 @@ main .container-icons img:hover {
         font-size: 17px;
     }
 
-    header .foot {
-        height: 60%;
+    header .foot .container-img {
+        margin-left: 0%!important;
+    }
+
+    header .foot .container-img img {
+        width: 700px;
     }
 
     header .foot h2 {
-        font-size: 22px;
+        font-size: 24px;
     }
     
     /* MAIN */
