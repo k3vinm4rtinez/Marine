@@ -171,14 +171,14 @@ main .first-content .container-first-text h1 {
 
 main .first-content .smile {
     width: 8%;
-    margin-bottom: 3%;
     margin-left: 1%;
 }
 
 main .first-content .underline {
-    height: 7%;
+    height: 6%;
     width: 410px;
     margin-bottom: 2%;
+    transform: rotate(4deg);
 }
 
 main .first-content .container-first-text p {
@@ -580,6 +580,7 @@ main .container-icons img:hover {
     header .foot .container-img {
         margin-left: 50%;
     }
+
 }
 
 @media (max-width: 800px) {
@@ -598,14 +599,6 @@ main .container-icons img:hover {
 
     header .title h1 {
         font-size: 24px;
-    }
-
-    .foot .container-img {
-        margin-left: 15%!important;
-    }
-
-    .foot .container-img img {
-        content: url("./libs/img/tablet.png");
     }
 
     .first-content {
@@ -671,17 +664,21 @@ main .container-icons img:hover {
         display: none;
     }
 
+    header {
+        height: 80vh!important;
+    }
+
     header .container-title {
         height: 45%;
-        align-items: flex-end;
+        align-items: flex-start;
     }
 
     header .title img {
-        width: 350px!important;
+        width: 300px!important;
     }
 
     header .title h1 {
-        font-size: 22px!important;
+        font-size: 20px!important;
     }
 
     header .foot {
@@ -689,15 +686,13 @@ main .container-icons img:hover {
     }
 
     header .foot .container-img {
-        margin-left: 10%!important;
-    }
-
-    header .foot .container-img img {
-        width: 600px;
+        content: url("./libs/img/agua-mobile.png");
+        margin-right: 0px;
+        margin-left: 60%;
     }
 
     header .foot h2 {
-        font-size: 24px;
+        font-size: 26px;
     }
     
     /* MAIN */
@@ -718,6 +713,14 @@ main .container-icons img:hover {
         font-size: 14px;
     }
 
+    main .first-content .underline {
+        width: 230px!important;
+    }
+
+    main .first-content .smile {
+        width: 6%;
+    }
+
     main .second-content .container-icons {
         height: auto;
     }
@@ -728,7 +731,14 @@ main .container-icons img:hover {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
 
+    header .title img {
+        width: 260px!important;
+    }
+
+    header .title h1 {
+        font-size: 19px!important;
+    }
 
 }
