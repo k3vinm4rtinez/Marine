@@ -618,7 +618,7 @@ main .container-icons img:hover {
     .first-content {
         padding: 0px!important;
         flex-direction: column;
-        padding-top: 10%!important;
+        padding-top: 15%!important;
     }
 
     .first-content .container-first-text {
