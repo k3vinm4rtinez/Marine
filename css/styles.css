@@ -147,7 +147,7 @@ main .first-content {
     align-items: center;
     height: 50vh;
     background-color: #cfe1e6;
-    padding-right: 5%;
+    padding-right: 10%;
     position: relative;
 }
 
@@ -163,12 +163,12 @@ main .first-content .container-first-text {
 }
 
 main .first-content .container-first-text h1 {
-    font-size: 50px;
+    font-size: 56px;
     margin: 0px;
 }
 
 main .first-content .smile {
-    width: 8%;
+    width: 6%;
     margin-left: 1%;
 }
 
@@ -176,7 +176,7 @@ main .first-content .underline {
     height: 6%;
     width: 410px;
     margin-bottom: 2%;
-    transform: rotate(4deg);
+    transform: rotate(3deg);
 }
 
 main .first-content .container-first-text p {
@@ -426,15 +426,15 @@ footer .container-icons img:hover {
     }
 
     main .first-content .container-first-text h1 {
-        font-size: 200%;
+        font-size: 250%;
     }
 
     main .first-content .container-first-text p {
-        font-size: 100%;
+        font-size: 110%;
     }
 
     main .first-content .underline {
-        width: 270px;
+        width: 300px;
     }
 
     main .second-content .container-text .container-second-text {
