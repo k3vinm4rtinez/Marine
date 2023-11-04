@@ -244,6 +244,10 @@ main .container-form form {
     align-items: center;
 }
 
+main .container-form form input {
+    height: 45px;
+}
+
 main .container-form form input, textarea {
     margin-bottom: 2.5px;
     margin-top: 2.5px;
@@ -288,6 +292,16 @@ main .container-form .arrow-form {
     right: 15%;
     transform: rotate(-5deg);
     width: 20%;
+}
+
+main .container-form button {
+    margin-top: 2%;
+    width: 30%;
+    height: 45px;
+    background-color: #8aa3b8;
+    border: none;
+    border-radius: 5px;
+    color: white;
 }
 
 /* TEXTO */
