@@ -151,6 +151,7 @@ main .first-content {
     height: 50vh;
     background-color: #cfe1e6;
     padding-right: 2%;
+    position: relative;
 }
 
 main .first-content .container-first-text {
@@ -197,6 +198,18 @@ main .first-content .container-tablet {
 main .first-content .container-tablet .tablet {
     height: 120%;
     object-fit: contain;
+}
+
+main .first-content button {
+    display: none;
+    position: absolute;
+    bottom: 15%;
+    background: transparent;
+    border: 2px solid #8aa3b8;
+    color: #8aa3b8;
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
 }
 
 /* Segundo bloque de contenido */
@@ -603,10 +616,15 @@ main .container-icons img:hover {
 
     .first-content {
         padding: 0px!important;
+        flex-direction: column;
     }
 
     .first-content .container-tablet {
         display: none!important;
+    }
+    
+    main .first-content button {
+        display: block;
     }
 
     .second-content {
@@ -664,10 +682,6 @@ main .container-icons img:hover {
         display: none;
     }
 
-    header {
-        height: 100vh!important;
-    }
-
     header .container-title {
         height: 45%;
         align-items: flex-start;
@@ -705,10 +719,6 @@ main .container-icons img:hover {
 
     main {
         height: 100vh;
-    }
-
-    main .first-content {
-        height: 50vh!important;
     }
 
     main .first-content .container-first-text h1 {
