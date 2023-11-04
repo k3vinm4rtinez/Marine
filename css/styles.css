@@ -139,10 +139,6 @@ header .foot .container-img img {
 
 /* MAIN */
 
-main {
-    height: 700px;
-}
-
 /* Primer bolque de contenido */
 
 main .first-content {
@@ -372,15 +368,37 @@ main .container-icons {
     height: 100%;
 }
 
-main .container-icons img {
-    width: 70px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+/* FOOTER */
+
+footer {
+    background-color: #8aa3b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .icon {
+    width: 50px;
+}
+
+footer .container-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer .container-icons img {
+    width: 40px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
 
-main .container-icons img:hover {
+footer .container-icons img:hover {
     transform: scale(1.1);
 }
 
@@ -698,6 +716,12 @@ main .container-icons img:hover {
         padding: 20px;
     }
 
+     /* Footer */
+
+     footer .container-icons {
+        width: 40%;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -751,10 +775,6 @@ main .container-icons img:hover {
     
     /* MAIN */
 
-    main {
-        height: 100vh;
-    }
-
     main .first-content .container-first-text h1 {
         font-size: 28px;
     }
@@ -779,6 +799,12 @@ main .container-icons img:hover {
         width: 50px;
     }
 
+    /* Footer */
+
+    footer .container-icons {
+        width: 50%;
+    }
+
 }
 
 @media (max-width: 380px) {
@@ -789,6 +815,12 @@ main .container-icons img:hover {
 
     header .title h1 {
         font-size: 19px!important;
+    }
+
+    /* Footer */
+
+    footer .container-icons {
+        width: 60%;
     }
 
 }
