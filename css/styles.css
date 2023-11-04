@@ -375,12 +375,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 footer .icon {
-    width: 50px;
+    width: 60px;
 }
 
 footer .container-icons {
@@ -393,7 +392,7 @@ footer .container-icons {
 }
 
 footer .container-icons img {
-    width: 40px;
+    width: 50px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
