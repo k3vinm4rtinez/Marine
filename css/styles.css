@@ -543,6 +543,12 @@ main .container-icons img:hover {
     .container-burger {
         display: flex;
         justify-content: flex-end;
+        align-items: center;
+        height: 10%;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        background-color: rgba(255,255,255, 0.9);
     }
 
     #burger-open, #burger-close {
@@ -553,7 +559,7 @@ main .container-icons img:hover {
     }
 
     #burger-open img, #burger-close img {
-        width: 35px;
+        width: 40px;
     }
 
     #nav-bar {
