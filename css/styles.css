@@ -207,9 +207,10 @@ main .first-content button {
     background: transparent;
     border: 2px solid #8aa3b8;
     color: #8aa3b8;
-    border-radius: 50px;
-    width: 150px;
-    height: 30px;
+    border-radius: 100px;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
 }
 
 /* Segundo bloque de contenido */
@@ -617,6 +618,11 @@ main .container-icons img:hover {
     .first-content {
         padding: 0px!important;
         flex-direction: column;
+        padding-top: 10%!important;
+    }
+
+    .first-content .container-first-text {
+        justify-content: flex-start!important;
     }
 
     .first-content .container-tablet {
