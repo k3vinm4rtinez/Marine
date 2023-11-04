@@ -641,6 +641,12 @@ footer .container-icons img:hover {
         margin-left: 50%;
     }
 
+    /* MAIN */
+
+    main .first-content {
+        padding-right: 2%!important;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -664,7 +670,7 @@ footer .container-icons img:hover {
     .first-content {
         padding: 0px!important;
         flex-direction: column;
-        padding-top: 20%!important;
+        padding-top: 10%!important;
     }
 
     .first-content .container-first-text {
@@ -774,6 +780,11 @@ footer .container-icons img:hover {
     }
     
     /* MAIN */
+
+    main .first-content {
+        padding: 0px!important;
+        padding-top: 20%!important;
+    }
 
     main .first-content .container-first-text h1 {
         font-size: 28px;
