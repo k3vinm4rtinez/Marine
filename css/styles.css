@@ -556,6 +556,7 @@ main .container-icons img:hover {
         background: transparent;
         border: none;
         padding: 10px;
+        height: 10%;
     }
 
     #burger-open img, #burger-close img {
