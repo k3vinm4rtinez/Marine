@@ -20,6 +20,7 @@ body {
     top: 0px;
     width: 100%;
     background-color: rgba(255,255,255, 0.9);
+    z-index: 1;
 }
 
 .container-navbar ul li span {
@@ -776,4 +777,11 @@ main .container-icons img:hover {
         font-size: 19px!important;
     }
 
+}
+
+@media (max-height: 660px) {
+
+    .second-content {
+        height: 100vh!important;
+    }
 }
