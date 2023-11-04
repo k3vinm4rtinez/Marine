@@ -244,10 +244,6 @@ main .container-form form {
     align-items: center;
 }
 
-main .container-form form input {
-    height: 45px;
-}
-
 main .container-form form input, textarea {
     margin-bottom: 2.5px;
     margin-top: 2.5px;
@@ -295,6 +291,9 @@ main .container-form .arrow-form {
 }
 
 main .container-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 2%;
     width: 30%;
     height: 45px;
@@ -652,7 +651,7 @@ main .container-icons img:hover {
         padding: 0px!important;
         flex-direction: column;
         align-items: center; 
-        height: 60vh!important;
+        height: 70vh!important;
     }
 
     .second-content .container-form {
