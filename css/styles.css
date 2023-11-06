@@ -821,7 +821,7 @@ footer .container-icons img:hover {
 @media (max-width: 380px) {
 
     header .title img {
-        width: 260px!important;
+        width: 255px!important;
     }
 
     header .title h1 {
