@@ -754,6 +754,7 @@ footer .container-icons img:hover {
     header .title {
         width: 100%;
         justify-content: center;
+        overflow: hidden;
     }
 
     header .title img {
@@ -786,6 +787,10 @@ footer .container-icons img:hover {
         padding-top: 20%!important;
     }
 
+    main .first-content .container-first-text {
+        overflow: hidden;
+    }
+
     main .first-content .container-first-text h1 {
         font-size: 28px;
     }
@@ -802,12 +807,8 @@ footer .container-icons img:hover {
         width: 6%;
     }
 
-    main .second-content .container-icons {
-        height: auto;
-    }
-
-    main .second-content .container-icons img {
-        width: 50px;
+    main .second-content .container-form {
+        overflow: hidden;
     }
 
     /* Footer */
@@ -819,10 +820,6 @@ footer .container-icons img:hover {
 }
 
 @media (max-width: 380px) {
-
-    header .title {
-        overflow: hidden;
-    }
 
     header .foot .container-img {
         margin-left: 50%;
@@ -840,6 +837,30 @@ footer .container-icons img:hover {
 
     footer .container-icons {
         width: 60%;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    header .title img {
+        width: 245px!important;
+    }
+
+    header .title h1 {
+        font-size: 18px!important;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    header .title img {
+        width: 230px!important;
+    }
+
+    header .title h1 {
+        font-size: 16px!important;
     }
 
 }
