@@ -824,8 +824,8 @@ footer .container-icons img:hover {
         overflow: hidden;
     }
 
-    header .container-burger {
-        overflow: hidden;
+    header .foot .container-img {
+        margin-left: 50%;
     }
 
     header .title img {
