@@ -824,6 +824,10 @@ footer .container-icons img:hover {
         overflow: hidden;
     }
 
+    header .container-burger {
+        overflow: hidden;
+    }
+
     header .title img {
         width: 255px!important;
     }
