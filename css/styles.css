@@ -362,13 +362,6 @@ main .second-content .container-text .container-extra-text .extra-text .p2 {
     position: absolute;
 }
 
-main .container-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}
-
 /* FOOTER */
 
 footer {
