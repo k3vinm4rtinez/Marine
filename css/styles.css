@@ -820,6 +820,10 @@ footer .container-icons img:hover {
 
 @media (max-width: 380px) {
 
+    header .title {
+        overflow: hidden;
+    }
+
     header .title img {
         width: 255px!important;
     }
@@ -832,30 +836,6 @@ footer .container-icons img:hover {
 
     footer .container-icons {
         width: 60%;
-    }
-
-}
-
-@media (max-width: 350px) {
-
-    header .title img {
-        width: 245px!important;
-    }
-
-    header .title h1 {
-        font-size: 18px!important;
-    }
-
-}
-
-@media (max-width: 330px) {
-
-    header .title img {
-        width: 230px!important;
-    }
-
-    header .title h1 {
-        font-size: 16px!important;
     }
 
 }
