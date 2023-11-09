@@ -128,6 +128,7 @@ header .foot .container-img {
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
+    margin-left: 40%;
     width: auto;
     height: 100%;
 }
@@ -406,10 +407,6 @@ footer .container-icons img:hover {
 
     header .foot h2 {
         font-size: 30px;
-    }
-
-    header .foot .container-img {
-        margin-left: 40%;
     }
 
     /* MAIN */
