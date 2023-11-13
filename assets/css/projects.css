@@ -346,10 +346,6 @@ main .container-projects-2 {
 
 @media (max-width: 450px) {
 
-    main .container-projects-1 {
-        height: 90vh;
-    }
-
     /* Primer texto */
 
     main .text-project-1 {
