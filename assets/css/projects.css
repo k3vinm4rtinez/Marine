@@ -147,6 +147,12 @@ main .container-projects-2 {
     display: none;
 }
 
+/* FOOTER */
+
+footer {
+    display: flex;
+}
+
 
 @media (max-width: 1520px) {
 
@@ -252,6 +258,7 @@ main .container-projects-2 {
         flex-direction: column;
         height: 500px;
         overflow: scroll;
+        width: 100%;
     }
 
     .myCards::-webkit-scrollbar{
