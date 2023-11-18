@@ -51,6 +51,7 @@ body {
 
 .container-navbar ul li a {
     color: #8aa3b8;
+    text-decoration: none;
 }
 
 .container-navbar ul li a:hover {
@@ -360,6 +361,7 @@ main .second-content .container-text .container-extra-text .extra-text .p1 {
 
 main .second-content .container-text .container-extra-text .extra-text .p2 {
     margin: 0px;
+    margin-top: 1%;
     position: absolute;
 }
 
