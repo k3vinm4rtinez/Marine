@@ -143,7 +143,7 @@ main .container-projects-2 {
 
 /* SLIDER */
 
-.container-slider {
+.mySlider {
     display: none;
 }
 
@@ -231,52 +231,44 @@ main .container-projects-2 {
 
     .card {
         height: 140px;
-        transform: rotate(-90deg);
-        float: left;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 100%;
+        z-index: 1;
     }
 
-    /* Slider */
+    /* mySlider */
 
-    .container-slider {
+    .mySlider {
         display: flex;
-        width: 100%;
-        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+        margin-right: 5%;
     }
 
-    .carousel {
-        width: 100%;
-        height: 100%;
-        transform: rotate(90deg);
-    }
-
-    .carousel-inner {
+    .myCards {
         display: flex;
-        overflow: visible;
-        margin-top: 10%;
-        margin-left: 5%;
+        flex-direction: column;
+        height: 500px;
+        overflow: scroll;
+    }
+
+    .myCards::-webkit-scrollbar{
+        display: none;
+    }
+
+    .myCards div {
         width: 100%;
+        display: grid;
+        flex: none;
     }
 
-    .carousel-control-prev {
-        height: 18%;
-        background-color: black;
-        width: 8%;
-        margin-top: 10%;
-        margin-left: 10%;
+    #backBtn, #nextBtn {
+        width: 35px;
+        cursor: pointer;
     }
 
-    .carousel-control-next {
-        height: 18%;
-        width: 8%;
-        background-color: black;
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-
-    .carousel-item {
-        display: flex!important;
-        justify-content: center;
-    }
 }
 
 @media (max-width: 650px) {
