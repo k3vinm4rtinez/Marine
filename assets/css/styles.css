@@ -761,7 +761,7 @@ footer .container-icons img:hover {
     }
 
     header .foot .container-img {
-        content: url("./libs/img/agua-mobile.png");
+        content: url("../../assets/libs/img/agua-mobile.png");
         margin-right: 0px;
         margin-left: 60%;
     }
