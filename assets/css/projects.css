@@ -297,6 +297,20 @@ main .container-projects-2 {
         left: 90px;
     }
 
+    /* Tarjetas */
+
+    .card {
+        height: 112px;
+    }
+
+    /* Slider */
+
+
+
+    .myCards {
+        height: 400px;
+    }
+
 }
 
 @media (max-width: 570px) {
@@ -304,7 +318,7 @@ main .container-projects-2 {
     /* Primer texto */
 
     main .text-project-1 {
-        top: 20%;
+        top: 30%;
     }
 
     main .text-project-1 h1 {
@@ -330,7 +344,6 @@ main .container-projects-2 {
 
     main .text-project-1 {
         left: -10%;
-        top: 22%;
     }
 
     main .text-project-1 h1 {
@@ -356,7 +369,6 @@ main .container-projects-2 {
 
     main .text-project-1 {
         left: -13%;
-        top: 24%;
     }
 
     main .text-project-1 h1 {
@@ -372,6 +384,18 @@ main .container-projects-2 {
     main .line {
         left: 20px;
         width: 24px;
+    }
+
+    /* Tarjetas */
+
+    .card {
+        height: 97px;
+    }
+    
+    /* Slider */
+    
+    .myCards {
+        height: 350px;
     }
 
 
