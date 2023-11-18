@@ -243,6 +243,10 @@ footer {
         z-index: 1;
     }
 
+    .card:hover {
+        transform: scale(1);
+    }
+
     /* mySlider */
 
     .mySlider {
@@ -251,6 +255,7 @@ footer {
         align-items: center;
         z-index: 0;
         margin-right: 5%;
+        width: auto;
     }
 
     .myCards {
@@ -258,7 +263,7 @@ footer {
         flex-direction: column;
         height: 500px;
         overflow: scroll;
-        width: 100%;
+        width: auto;
     }
 
     .myCards::-webkit-scrollbar{
@@ -311,8 +316,6 @@ footer {
     }
 
     /* Slider */
-
-
 
     .myCards {
         height: 400px;
