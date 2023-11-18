@@ -141,6 +141,13 @@ main .container-projects-2 {
     background-color: #8aa3b8;
 }
 
+/* SLIDER */
+
+.container-slider {
+    display: none;
+}
+
+
 @media (max-width: 1520px) {
 
     /* Primer texto */
@@ -197,11 +204,6 @@ main .container-projects-2 {
 
     /* MAIN */
 
-    main .container-projects-1 {
-        height: 120vh;
-        align-items: flex-end;
-    }
-
     /* Primer texto */
 
     main .text-project-1 {
@@ -224,16 +226,57 @@ main .container-projects-2 {
     /* Tarjetas de proyectos */
 
     main .cards-project-1 {
-        width: 40%;
-        margin-top: 0%;
-        margin-bottom: 5%;
+        display: none;
     }
 
     .card {
-        width: 250px;
+        height: 140px;
+        transform: rotate(-90deg);
+        float: left;
     }
 
+    /* Slider */
 
+    .container-slider {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 100%;
+        transform: rotate(90deg);
+    }
+
+    .carousel-inner {
+        display: flex;
+        overflow: visible;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .carousel-control-prev {
+        height: 18%;
+        background-color: black;
+        width: 8%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .carousel-control-next {
+        height: 18%;
+        width: 8%;
+        background-color: black;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .carousel-item {
+        display: flex!important;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 650px) {
@@ -260,12 +303,6 @@ main .container-projects-2 {
 
     main .line {
         left: 90px;
-    }
-
-    /* Tarjetas de proyectos */
-    
-    .card {
-        width: 220px;
     }
 
 }
@@ -296,15 +333,6 @@ main .container-projects-2 {
         left: 75px;
     }
 
-    /* Tarjetas de proyectos */
-
-    main .cards-project-1 {
-        margin-bottom: 10%;
-    }
-    
-    .card {
-        width: 200px;
-    }
 
 }
 
@@ -331,16 +359,6 @@ main .container-projects-2 {
         left: 40px;
     }
 
-    /* Tarjetas de proyectos */
-
-    main .cards-project-1 {
-        width: 45%;
-        margin-bottom: 5%;
-    }
-
-    .card {
-        margin: 2%;
-    }
 
 }
 
@@ -372,11 +390,5 @@ main .container-projects-2 {
         width: 24px;
     }
 
-    /* Tarjetas de proyectos */
-
-    .card {
-        width: 170px;
-        margin: 5%;
-    }
 
 }
