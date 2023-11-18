@@ -274,7 +274,7 @@ main .container-projects-2 {
 @media (max-width: 650px) {
 
     main .container-projects-1 {
-        height: 110vh;
+        height: 80vh;
     }
 
     /* Primer texto */
@@ -300,10 +300,6 @@ main .container-projects-2 {
 }
 
 @media (max-width: 570px) {
-
-    main .container-projects-1 {
-        height: 100vh;
-    }
 
     /* Primer texto */
 
@@ -355,10 +351,6 @@ main .container-projects-2 {
 }
 
 @media (max-width: 450px) {
-
-    main .container-projects-1 {
-        height: 95vh;
-    }
 
     /* Primer texto */
 
