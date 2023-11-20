@@ -159,15 +159,16 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
-        top: 40%;
+        top: 30%;
     }
 
     main .text-project-1 h1 {
-        font-size: 70px;
+        font-size: 80px;
+        font-weight: normal;
     }
     
     main .text-project-1 li {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     /* Tarjetas de proyectos */
@@ -350,10 +351,6 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        top: 39%;
-    }
-
     main .text-project-1 h1 {
         font-size: 55px;
     }
@@ -389,6 +386,7 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
+        top: 37%;
         left: -8%;
     }
 
