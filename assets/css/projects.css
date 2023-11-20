@@ -29,7 +29,7 @@ main .text-project-1 {
     transform: rotate(-90deg);
     position: absolute;
     top: 32%;
-    left: -5%;
+    left: 3%;
     color: #8aa3b8;
     width: auto;
     height: auto;
@@ -294,6 +294,7 @@ footer {
 
     main .text-project-1 {
         top: 25%;
+        left: 0%;
     }
 
     main .text-project-1 h1 {
@@ -330,6 +331,7 @@ footer {
 
     main .text-project-1 {
         top: 30%;
+        left: -5%;
     }
 
     main .text-project-1 h1 {
