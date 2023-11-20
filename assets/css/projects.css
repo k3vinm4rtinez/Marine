@@ -362,6 +362,18 @@ footer {
 
     /* Primer texto */
 
+    main .text-project-1 {
+        top: 35%;
+        left: -20%;
+    }
+
+    main .text-project-1 h1 {
+        font-size: 75px;
+    }
+
+    main .text-project-1 li {
+        font-size: 14px;
+    }
 
     /* Linea */
 
@@ -389,17 +401,6 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        left: -15%;
-    }
-
-    main .text-project-1 h1 {
-        font-size: 60px;
-    }
-
-    main .text-project-1 li {
-        font-size: 12px;
-    }
 
     /* Linea */
 
