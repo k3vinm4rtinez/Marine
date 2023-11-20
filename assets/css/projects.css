@@ -37,6 +37,7 @@ main .text-project-1 {
 
 main .text-project-1 h1 {
     font-size: 100px;
+    margin: 0px;
 }
 
 main .text-project-1 li {
