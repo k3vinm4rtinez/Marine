@@ -289,6 +289,7 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
+        top: 35%;
         left: 0%;
     }
 
@@ -324,10 +325,6 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        left: -5%;
-    }
-
     main .text-project-1 h1 {
         font-size: 60px;
     }
@@ -350,11 +347,11 @@ footer {
     /* Primer texto */
 
     main .text-project-1 h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     main .text-project-1 li {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     /* Linea */
@@ -362,6 +359,19 @@ footer {
     main .line {
         left: 40px;
     }
+
+    /* Tarjetas */
+
+    .card {
+        height: 100px;
+    }
+    
+    /* Slider */
+    
+    .myCards {
+        height: 350px;
+    }
+    
 
 
 }
@@ -371,7 +381,7 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
-        left: -13%;
+        left: -5%;
     }
 
     main .text-project-1 h1 {
@@ -392,13 +402,13 @@ footer {
     /* Tarjetas */
 
     .card {
-        height: 97px;
+        height: 80px;
     }
     
     /* Slider */
     
     .myCards {
-        height: 350px;
+        height: 285px;
     }
 
 
