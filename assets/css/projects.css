@@ -286,6 +286,10 @@ footer {
 
 @media (max-width: 650px) {
 
+    main .container-projects-1 {
+        height: 80vh;
+    }
+
     /* Primer texto */
 
     main .text-project-1 {
