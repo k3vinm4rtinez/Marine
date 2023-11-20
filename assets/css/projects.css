@@ -232,7 +232,7 @@ footer {
     }
         
     main .text-project-1 li {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     /* Tarjetas de proyectos */
@@ -300,6 +300,7 @@ footer {
 
     main .text-project-1 {
         top: 35%;
+        left: -5%;
     }
 
     main .text-project-1 h1 {
@@ -307,7 +308,7 @@ footer {
     }
 
     main .text-project-1 li {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     /* Linea */
@@ -335,8 +336,8 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
-        top: 32%;
-        left: -5%;
+        top: 35%;
+        left: -10%;
     }
 
     main .text-project-1 h1 {
@@ -344,7 +345,7 @@ footer {
     }
 
     main .text-project-1 li {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     /* Linea */
@@ -360,9 +361,6 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        left: -10%;
-    }
 
     /* Linea */
 
@@ -391,8 +389,7 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
-        top: 33%;
-        left: -12%;
+        left: -15%;
     }
 
     main .text-project-1 h1 {
@@ -400,7 +397,7 @@ footer {
     }
 
     main .text-project-1 li {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     /* Linea */
