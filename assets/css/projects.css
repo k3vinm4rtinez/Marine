@@ -286,10 +286,6 @@ footer {
 
 @media (max-width: 650px) {
 
-    main .container-projects-1 {
-        height: 80vh;
-    }
-
     /* Primer texto */
 
     main .text-project-1 {
@@ -355,16 +351,12 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        left: -10%;
-    }
-
     main .text-project-1 h1 {
-        font-size: 55px;
+        font-size: 60px;
     }
 
     main .text-project-1 li {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     /* Linea */
