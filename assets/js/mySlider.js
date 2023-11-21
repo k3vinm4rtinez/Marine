@@ -8,17 +8,13 @@ nextBtn.addEventListener("click", (evt) =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, sliderHeight);
 
-    if(scrollContainer.scrollBy(0, sliderHeight)){
-        nextBtn.disabled = true;
-    }
-
 });
 
 backBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, -sliderHeight);
 
-    if(scrollContainer.scrollBy(0, -sliderHeight)){
+    if(scrollContainer.scrollHeight = -sliderHeight){
         backBtn.disabled = true;
     }
 });
