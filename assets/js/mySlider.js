@@ -15,7 +15,7 @@ backBtn.addEventListener("click", () =>{
     scrollContainer.scrollBy(0, -sliderHeight);
 
     if(scrollContainer.scrollHeight = (0, sliderHeight)){
-        backBtn.disabled = fasle;
+        backBtn.disabled = false;
     }else{
         backBtn.disabled = true;
     }
