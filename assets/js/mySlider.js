@@ -14,7 +14,9 @@ backBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, -sliderHeight);
 
-    if(scrollContainer.scrollHeight = -sliderHeight){
+    if(scrollContainer.scrollHeight = (0, sliderHeight)){
+        backBtn.disabled = fasle;
+    }else{
         backBtn.disabled = true;
     }
 });
