@@ -148,6 +148,14 @@ main .container-projects-2 {
     display: none;
 }
 
+.firstCards {
+    transition-duration: 5s;
+}
+
+.secondCards {
+    transition-duration: 5s;
+}
+
 /* FOOTER */
 
 footer {
