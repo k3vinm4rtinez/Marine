@@ -11,13 +11,10 @@ nextBtn.addEventListener("click", (evt) =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, sliderHeight);
 
-    nextBtn = false;
 });
 
 backBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, -sliderHeight);
-
-    nextBtn = true;
 
 });
