@@ -1,3 +1,7 @@
+* {
+    font-weight: normal;
+}
+
 /* HEADER */
 
 header {
@@ -38,6 +42,7 @@ main .text-project-1 {
 main .text-project-1 h1 {
     font-size: 100px;
     margin: 0px;
+    font-weight: normal;
 }
 
 main .text-project-1 li {
@@ -168,16 +173,16 @@ footer {
     /* Primer texto */
 
     main .text-project-1 {
-        top: 37%;
+        top: 32%;
     }
 
     main .text-project-1 h1 {
         font-weight: normal;
-        font-size: 80px;
+        font-size: 85px;
     }
 
     main .text-project-1 li {
-        font-size: 22px;
+        font-size: 23px;
     }
     
     /* Tarjetas de proyectos */
