@@ -6,17 +6,19 @@ const sliderHeight = scrollContainer.offsetHeight;
 const firstCards = document.querySelector(".firstCards");
 const secondCards = document.querySelector(".secondCards");
 
+
 nextBtn.addEventListener("click", (evt) =>{
     evt.preventDefault();
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, sliderHeight);
-    nextBtn.disabled = true;
 
+    nextBtn.disabled = true;
 });
 
 backBtn.addEventListener("click", () =>{
     scrollContainer.style.scrollBehavior = "smooth";
     scrollContainer.scrollBy(0, -sliderHeight);
+
     nextBtn.disabled = false;
 
 });

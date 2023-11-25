@@ -161,6 +161,14 @@ main .container-projects-2 {
     transition-duration: 5s;
 }
 
+.mySlider button {
+    all: unset;
+    background-color: transparent;
+    border: none;
+}
+
+
+
 /* FOOTER */
 
 footer {
@@ -305,7 +313,7 @@ footer {
         flex: none;
     }
 
-    #backBtn, #nextBtn {
+    #backBtn img, #nextBtn img {
         width: 35px;
         cursor: pointer;
     }
