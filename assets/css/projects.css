@@ -1,5 +1,6 @@
 * {
     font-weight: normal;
+
 }
 
 /* HEADER */
@@ -70,19 +71,24 @@ main .cards-project-1 {
     background-color: #cfe1e6;
     border-radius: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     overflow: hidden;
     perspective: 1000px;
     box-shadow: 0 0 0 5px #ffffff80;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     margin: 1%;
+    padding: 10px;
+    color: #ffff;
   }
   
-  .card svg {
-    width: 42px;
-    fill: #333;
+  .card i {
+    font-size: 35px;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    color: black;
   }
   
   .card__image {
@@ -101,7 +107,7 @@ main .cards-project-1 {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     background-color: #cfe1e6;
     transform: rotateX(-90deg);
@@ -120,10 +126,6 @@ main .cards-project-1 {
     font-weight: 700;
   }
   
-  .card:hover svg {
-    scale: 0;
-  }
-  
   .card__description {
     margin: 10px 0 10px;
     font-size: 8px;
@@ -140,12 +142,10 @@ main .cards-project-1 {
     color: white;
   }
 
-/* asdas */
+  .card h1 {
+    font-size: 28px;
+  }
 
-main .container-projects-2 {
-    height: 100vh;
-    background-color: #8aa3b8;
-}
 
 /* SLIDER */
 
@@ -165,6 +165,76 @@ main .container-projects-2 {
     all: unset;
     background-color: transparent;
     border: none;
+}
+
+/* CONTENIDO */
+
+.container-projects-2 {
+    height: 100vh;
+    background-color: #8aa3b8;
+    color: #ffff;
+    width: 100%;
+}
+
+.container-projects-2 .title-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    height: 250px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container-projects-2 .project-line {
+    position: absolute;
+}
+
+.line-1 {
+    width: 350px;
+    left: 0%;
+    transform: rotate(195deg);
+    bottom: 10%;
+}
+
+.line-2 {
+    width: 550px;
+    right: 0%;
+    top: 0%;
+}
+
+.uno {
+    position: absolute;
+    left: 20rem;
+    width: 50%;
+    font-weight: normal;
+    font-size: 66px;
+}
+
+.dos {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 24rem;
+    width: 50%;
+    font-weight: normal;
+    font-size: 66px;
+    margin-top: 1rem;
+}
+
+.tres {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8rem;
+    left: 43rem;
+    width: 50%;
+    font-size: 50px;
+}
+
+.tres img {
+    width: 350px;
+    height: auto;
 }
 
 
