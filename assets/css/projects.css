@@ -3,6 +3,11 @@
 
 }
 
+body {
+
+    font-family: "Montserrat";
+}
+
 /* HEADER */
 
 header {
@@ -13,11 +18,12 @@ header {
 
 main .container-projects-1 {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     height: 100vh;
     position: relative;
     flex-direction: row-reverse;
     overflow: hidden;
+    padding-bottom: 3rem;
 }
 
 main .line {
@@ -33,15 +39,15 @@ main .line {
 main .text-project-1 {
     transform: rotate(-90deg);
     position: absolute;
-    top: 32%;
-    left: 3%;
-    color: #8aa3b8;
+    left: -7rem;
+    bottom: 10rem;
+    color: #497078;
     width: auto;
     height: auto;
 }
 
 main .text-project-1 h1 {
-    font-size: 100px;
+    font-size: 90px;
     margin: 0px;
     font-weight: normal;
 }
@@ -109,7 +115,7 @@ main .cards-project-1 {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #cfe1e6;
+    background-color: #8aa9a7;
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -170,9 +176,9 @@ main .cards-project-1 {
 /* CONTENIDO */
 
 .container-projects-2 {
-    height: 100vh;
-    background-color: #8aa3b8;
-    color: #ffff;
+    height: 150vh;
+    background-color: #8aa9a7;
+    color: #497078;
     width: 100%;
 }
 
@@ -181,44 +187,43 @@ main .cards-project-1 {
     flex-direction: column;
     align-items: left;
     position: relative;
-    height: 250px;
+    height: 40%;
     justify-content: center;
     overflow: hidden;
 }
 
-.container-projects-2 .project-line {
-    position: absolute;
-}
-
 .line-1 {
-    width: 350px;
+    position: absolute;
+    width: 18rem;
     left: 0%;
-    transform: rotate(195deg);
-    bottom: 10%;
+    top: 15rem;
 }
 
 .line-2 {
-    width: 550px;
+    position: absolute;
+    width: 46rem;
     right: 0%;
     top: 0%;
 }
 
 .uno {
     position: absolute;
-    left: 20rem;
-    width: 50%;
+    left: 13rem;
+    top: 5rem;
     font-weight: normal;
-    font-size: 66px;
+    font-size: 140px;
+}
+
+.uno span {
+    font-size: 80px;
 }
 
 .dos {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 24rem;
-    width: 50%;
+    top: 13.5rem;
+    left: 20rem;
     font-weight: normal;
-    font-size: 66px;
+    font-size: 140px;
     margin-top: 1rem;
 }
 
@@ -226,14 +231,13 @@ main .cards-project-1 {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 8rem;
-    left: 43rem;
-    width: 50%;
-    font-size: 50px;
+    top: 13rem;
+    left: 67rem;
+    font-size: 80px;
 }
 
 .tres img {
-    width: 350px;
+    width: 40rem;
     height: auto;
 }
 
@@ -245,17 +249,142 @@ footer {
     display: flex;
 }
 
+@media (max-width: 1800px) {
+
+    /* EL TITULO */
+
+    .line-1 {
+        width: 16rem;
+        left: 0%;
+        top: 14rem;
+    }
+    
+    .line-2 {
+        width: 44rem;
+        right: 0%;
+        top: 0%;
+    }
+
+    .uno {
+        left: 12.5rem;
+        top: 5rem;
+        font-size: 130px;
+    }
+    
+    .uno span {
+        font-size: 70px;
+    }
+    
+    .dos {
+        top: 12.5rem;
+        left: 18.5rem;
+        width: 50%;
+        font-size: 130px;
+        margin-top: 1rem;
+    }
+    
+    .tres {
+        top: 12rem;
+        left: 62rem;
+        width: 50%;
+        font-size: 70px;
+    }
+
+    .tres img {
+        width: 38rem;
+    }
+}
+
+@media (max-width: 1720px) {
+
+        /* EL TITULO */
+
+        .line-1 {
+            width: 14rem;
+            top: 13rem;
+        }
+        
+        .line-2 {
+            width: 40rem;
+        }
+    
+        .uno {
+            font-size: 120px;
+            left: 11rem;
+        }
+        
+        .uno span {
+            font-size: 60px;
+        }
+        
+        .dos {
+            font-size: 120px;
+            left: 16rem;
+            top: 12rem;
+        }
+        
+        .tres {
+            left: 56rem;
+            font-size: 60px;
+            top: 11.5rem;
+        }
+
+        .tres img {
+            width: 36rem;
+        }
+
+}
+
+@media (max-width: 1650px) {
+
+    /* EL TITULO */
+
+    .line-1 {
+        width: 12rem;
+    }
+    
+    .line-2 {
+        width: 38rem;
+    }
+
+    .uno {
+        font-size: 110px;
+        left: 9.5rem;
+    }
+    
+    .uno span {
+        font-size: 50px;
+    }
+    
+    .dos {
+        font-size: 110px;
+        left: 14rem;
+        top: 11rem;
+    }
+    
+    .tres {
+        left: 51rem;
+        font-size: 50px;
+        top: 11rem;
+    }
+
+    .tres img {
+        width: 34rem;
+    }
+
+}
 
 @media (max-width: 1520px) {
 
     /* Primer texto */
 
     main .text-project-1 {
-        top: 31%;
+        top: 12rem;
+        left: -5rem;
     }
 
     main .text-project-1 h1 {
-        font-size: 85px;
+        font-size: 80px;
     }
 
     main .text-project-1 li {
@@ -268,6 +397,78 @@ footer {
         width: 250px;
     }
 
+    /* EL TITULO */
+
+    .line-1 {
+        width: 11rem;
+    }
+        
+    .line-2 {
+        width: 34rem;
+    }
+    
+    .uno {
+        font-size: 100px;
+    }
+        
+    .uno span {
+        font-size: 40px;
+    }
+        
+    .dos {
+        font-size: 100px;
+        left: 13.5rem;
+        top: 10.5rem;
+    }
+        
+    .tres {
+        left: 47rem;
+        font-size: 40px;
+        top: 11rem;
+    }
+    
+    .tres img {
+        width: 32rem;
+    }
+
+}
+
+@media (max-width: 1410px) {
+        /* EL TITULO */
+
+        .line-1 {
+            width: 11rem;
+            top: 12rem;
+        }
+            
+        .line-2 {
+            width: 32rem;
+        }
+        
+        .uno {
+            font-size: 90px;
+        }
+            
+        .uno span {
+            font-size: 30px;
+        }
+            
+        .dos {
+            font-size: 90px;
+            left: 13rem;
+            top: 10rem;
+        }
+            
+        .tres {
+            left: 43.5rem;
+            font-size: 30px;
+            top: 11rem;
+        }
+        
+        .tres img {
+            width: 30rem;
+        }
+    
 }
 
 @media (max-width: 1050px) {
