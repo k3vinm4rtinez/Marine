@@ -194,21 +194,22 @@ main .cards-project-1 {
 
 .line-1 {
     position: absolute;
-    width: 18rem;
+    width: 19rem;
     left: 0%;
     top: 15rem;
 }
 
 .line-2 {
     position: absolute;
-    width: 46rem;
-    right: 0%;
+    width: 50rem;
+    overflow: hidden;
+    left: 1180px;
     top: 0%;
 }
 
 .uno {
     position: absolute;
-    left: 13rem;
+    left: 15rem;
     top: 5rem;
     font-weight: normal;
     font-size: 140px;
@@ -221,7 +222,7 @@ main .cards-project-1 {
 .dos {
     position: absolute;
     top: 13.5rem;
-    left: 20rem;
+    left: 22rem;
     font-weight: normal;
     font-size: 140px;
     margin-top: 1rem;
@@ -232,7 +233,7 @@ main .cards-project-1 {
     flex-direction: column;
     position: absolute;
     top: 13rem;
-    left: 67rem;
+    left: 69rem;
     font-size: 80px;
 }
 
@@ -254,19 +255,19 @@ footer {
     /* EL TITULO */
 
     .line-1 {
-        width: 16rem;
+        width: 17rem;
         left: 0%;
         top: 14rem;
     }
     
     .line-2 {
         width: 44rem;
-        right: 0%;
         top: 0%;
+        left: 1100px;
     }
 
     .uno {
-        left: 12.5rem;
+        left: 14rem;
         top: 5rem;
         font-size: 130px;
     }
@@ -277,7 +278,7 @@ footer {
     
     .dos {
         top: 12.5rem;
-        left: 18.5rem;
+        left: 20rem;
         width: 50%;
         font-size: 130px;
         margin-top: 1rem;
@@ -285,7 +286,7 @@ footer {
     
     .tres {
         top: 12rem;
-        left: 62rem;
+        left: 63.5rem;
         width: 50%;
         font-size: 70px;
     }
@@ -295,61 +296,23 @@ footer {
     }
 }
 
-@media (max-width: 1720px) {
-
-        /* EL TITULO */
-
-        .line-1 {
-            width: 14rem;
-            top: 13rem;
-        }
-        
-        .line-2 {
-            width: 40rem;
-        }
-    
-        .uno {
-            font-size: 120px;
-            left: 11rem;
-        }
-        
-        .uno span {
-            font-size: 60px;
-        }
-        
-        .dos {
-            font-size: 120px;
-            left: 16rem;
-            top: 12rem;
-        }
-        
-        .tres {
-            left: 56rem;
-            font-size: 60px;
-            top: 11.5rem;
-        }
-
-        .tres img {
-            width: 36rem;
-        }
-
-}
 
 @media (max-width: 1650px) {
 
     /* EL TITULO */
 
     .line-1 {
-        width: 12rem;
+        width: 16rem;
     }
     
     .line-2 {
-        width: 38rem;
+        width: 43rem;
+        left: 945px;
     }
 
     .uno {
         font-size: 110px;
-        left: 9.5rem;
+        left: 13.5rem;
     }
     
     .uno span {
@@ -358,12 +321,12 @@ footer {
     
     .dos {
         font-size: 110px;
-        left: 14rem;
+        left: 18rem;
         top: 11rem;
     }
     
     .tres {
-        left: 51rem;
+        left: 55rem;
         font-size: 50px;
         top: 11rem;
     }
