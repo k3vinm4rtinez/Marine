@@ -378,23 +378,11 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        top: 12rem;
-        left: -5rem;
-    }
-
-    main .text-project-1 h1 {
-        font-size: 80px;
-    }
-
-    main .text-project-1 li {
-        font-size: 23px;
-    }
     
     /* Tarjetas de proyectos */
 
-    .card {
-        width: 250px;
+    main .cards-project-1 {
+        width: 60%;
     }
 
     /* EL TITULO */
@@ -433,41 +421,52 @@ footer {
 
 }
 
-@media (max-width: 1410px) {
-        /* EL TITULO */
+@media (max-width: 1300px) {
 
-        .line-1 {
-            width: 11rem;
-            top: 12rem;
-        }
+    /* Tarjetas de proyectos */
+
+    main .cards-project-1 {
+        width: 65%;
+    }
+    
+}
+
+@media (max-width: 1410px) {
+
+    /* EL TITULO */
+
+    .line-1 {
+        width: 11rem;
+        top: 12rem;
+    }
             
-        .line-2 {
-            width: 32rem;
-        }
+    .line-2 {
+        width: 32rem;
+    }
         
-        .uno {
-            font-size: 90px;
-        }
+    .uno {
+        font-size: 90px;
+    }
             
-        .uno span {
-            font-size: 30px;
-        }
+    .uno span {
+        font-size: 30px;
+    }
             
-        .dos {
-            font-size: 90px;
-            left: 13rem;
-            top: 10rem;
-        }
+    .dos {
+        font-size: 90px;
+        left: 13rem;
+        top: 10rem;
+    }
             
-        .tres {
-            left: 43.5rem;
-            font-size: 30px;
-            top: 11rem;
-        }
+    .tres {
+        left: 43.5rem;
+        font-size: 30px;
+        top: 11rem;
+    }
         
-        .tres img {
-            width: 30rem;
-        }
+    .tres img {
+        width: 30rem;
+    }
     
 }
 
