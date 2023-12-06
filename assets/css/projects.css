@@ -187,7 +187,7 @@ main .cards-project-1 {
     flex-direction: column;
     align-items: left;
     position: relative;
-    height: 40%;
+    height: 30rem;
     justify-content: center;
     overflow: hidden;
 }
@@ -242,6 +242,12 @@ main .cards-project-1 {
     height: auto;
 }
 
+.smile-project {
+    position: absolute;
+    width: 55px;
+    left: 1000px;
+    top: 295px;
+}
 
 
 /* FOOTER */
@@ -253,6 +259,10 @@ footer {
 @media (max-width: 1800px) {
 
     /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 27rem;
+    }
 
     .line-1 {
         width: 17rem;
@@ -294,6 +304,12 @@ footer {
     .tres img {
         width: 38rem;
     }
+
+    .smile-project {
+        width: 50px;
+        left: 922px;
+        top: 275px;
+    }
 }
 
 
@@ -301,8 +317,13 @@ footer {
 
     /* EL TITULO */
 
+    .container-projects-2 .title-2 {
+        height: 25rem;
+    }
+
     .line-1 {
         width: 16rem;
+        top: 12.5rem;
     }
     
     .line-2 {
@@ -316,7 +337,7 @@ footer {
     }
     
     .uno span {
-        font-size: 50px;
+        font-size: 60px;
     }
     
     .dos {
@@ -327,7 +348,7 @@ footer {
     
     .tres {
         left: 55rem;
-        font-size: 50px;
+        font-size: 60px;
         top: 11rem;
     }
 
@@ -335,9 +356,15 @@ footer {
         width: 34rem;
     }
 
+    .smile-project {
+        width: 42px;
+        left: 797px;
+        top: 242px;
+    }
+
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
 
     /* Primer texto */
 
@@ -363,32 +390,38 @@ footer {
 
     /* EL TITULO */
 
+    .container-projects-2 .title-2 {
+        height: 22rem;
+    }
+
     .line-1 {
-        width: 13rem;
+        width: 15rem;
+        top: 12rem;
     }
         
     .line-2 {
-        width: 34rem;
+        width: 40rem;
+        left: 860px;
     }
     
     .uno {
-        font-size: 90px;
-        left: 10rem;
+        font-size: 100px;
+        left: 13rem;
     }
         
     .uno span {
-        font-size: 45px;
+        font-size: 50px;
     }
         
     .dos {
-        font-size: 90px;
-        left: 14rem;
+        font-size: 100px;
+        left: 17.5rem;
         top: 10.5rem;
     }
         
     .tres {
-        left: 44rem;
-        font-size: 45px;
+        left: 51rem;
+        font-size: 50px;
         top: 10rem;
     }
     
@@ -396,6 +429,212 @@ footer {
         width: 30rem;
     }
 
+    .smile-project {
+        width: 36px;
+        left: 743px;
+        top: 230px;
+    }
+
+}
+
+@media (max-width: 1360px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 20rem;
+    }
+
+    .line-1 {
+        width: 14rem;
+        top: 12rem;
+    }
+            
+    .line-2 {
+        width: 36rem;
+        left: 790px;
+    }
+        
+    .uno {
+        font-size: 90px;
+        left: 13rem;
+    }
+            
+    .uno span {
+        font-size: 45px;
+    }
+            
+    .dos {
+        font-size: 90px;
+        left: 17rem;
+        top: 10rem;
+    }
+            
+    .tres {
+        left: 47rem;
+        font-size: 45px;
+        top: 10.5rem;
+    }
+        
+    .tres img {
+        width: 28rem;
+    }
+
+    .smile-project {
+        width: 34px;
+        left: 688px;
+        top: 215px;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 19rem;
+    }
+
+    .line-1 {
+        width: 13rem;
+        top: 11rem;
+    }
+            
+    .line-2 {
+        width: 34.5rem;
+        left: 730px;
+    }
+        
+    .uno {
+        font-size: 85px;
+        left: 12rem;
+    }
+            
+    .uno span {
+        font-size: 35px;
+    }
+            
+    .dos {
+        font-size: 85px;
+        left: 15rem;
+        top: 9.5rem;
+    }
+            
+    .tres {
+        left: 43rem;
+        font-size: 35px;
+        top: 10rem;
+    }
+        
+    .tres img {
+        width: 28rem;
+    }
+
+    .smile-project {
+        width: 32px;
+        left: 633px;
+        top: 206px;
+    }
+}
+
+@media (max-width: 1190px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 18rem;
+    }
+
+    .line-1 {
+        width: 12rem;
+        top: 10.5rem;
+    }
+        
+    .line-2 {
+        width: 32.5rem;
+        left: 675px;
+    }
+    
+    .uno {
+        font-size: 75px;
+        left: 11rem;
+    }
+        
+    .uno span {
+        font-size: 35px;
+    }
+        
+    .dos {
+        font-size: 75px;
+        left: 14rem;
+        top: 9rem;
+    }
+        
+    .tres {
+        left: 40rem;
+        font-size: 35px;
+        top: 9.5rem;
+    }
+    
+    .tres img {
+        width: 26rem;
+    }
+
+    .smile-project {
+        width: 29px;
+        left: 570px;
+        top: 193px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 16rem;
+    }
+
+    .line-1 {
+        width: 11rem;
+        top: 10rem;
+    }
+        
+    .line-2 {
+        width: 30rem;
+        left: 620px;
+    }
+    
+    .uno {
+        font-size: 70px;
+        left: 10rem;
+    }
+        
+    .uno span {
+        font-size: 30px;
+    }
+        
+    .dos {
+        font-size: 70px;
+        left: 12.5rem;
+        top: 8.5rem;
+    }
+        
+    .tres {
+        left: 36.5rem;
+        font-size: 30px;
+        top: 9rem;
+    }
+    
+    .tres img {
+        width: 24rem;
+    }
+
+    .smile-project {
+        width: 27px;
+        left: 523px;
+        top: 183px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -438,6 +677,56 @@ footer {
         font-size: 8px;
     }
 
+}
+
+@media (max-width: 990px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 18rem;
+    }
+
+    .line-1 {
+        width: 10rem;
+        top: 9.5rem;
+    }
+        
+    .line-2 {
+        width: 27.5rem;
+        left: 550px;
+    }
+    
+    .uno {
+        font-size: 60px;
+        left: 9rem;
+    }
+        
+    .uno span {
+        font-size: 25px;
+    }
+        
+    .dos {
+        font-size: 60px;
+        left: 11.5rem;
+        top: 8rem;
+    }
+        
+    .tres {
+        left: 32rem;
+        font-size: 25px;
+        top: 8.5rem;
+    }
+    
+    .tres img {
+        width: 21rem;
+    }
+
+    .smile-project {
+        width: 24px;
+        left: 460px;
+        top: 171px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -516,6 +805,248 @@ footer {
         cursor: pointer;
     }
 
+    /* EL TITULO */
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+
+    .title-2 h1 {
+        width: 100%;
+    }
+
+    .line-1 {
+        width: 13rem;
+        top: 12.5rem;
+    }
+            
+    .line-2 {
+        width: 35rem;
+        left: 540px;
+    }
+        
+    .uno {
+        font-size: 65px;
+        left: 7rem;
+        top: 3rem;
+    }
+            
+    .uno span {
+        font-size: 40px;
+    }
+            
+    .dos {
+        font-size: 65px;
+        left: 10.5rem;
+        top: 6rem;
+    }
+
+    .dos span::after {
+        content: "en";
+        font-size: 40px;
+    }
+            
+    .tres {
+        left: 16rem;
+        top: 12rem;
+    }
+        
+    .tres img {
+        width: 23rem;
+    }
+
+    .tres span {
+        display: none;
+    }
+    
+    .smile-project {
+        width: 24px;
+        left: 468px;
+        top: 140px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+
+    .title-2 h1 {
+        width: 100%;
+    }
+
+    .line-1 {
+        width: 13rem;
+        top: 12.5rem;
+        display: block!important;
+    }
+            
+    .line-2 {
+        width: 32rem;
+        left: 510px;
+    }
+        
+    .uno {
+        font-size: 60px;
+        left: 7rem;
+        top: 3rem;
+    }
+            
+    .uno span {
+        font-size: 40px;
+    }
+            
+    .dos {
+        font-size: 60px;
+        left: 10.5rem;
+        top: 6rem;
+    }
+
+    .dos span::after {
+        content: "en";
+        font-size: 40px;
+    }
+            
+    .tres {
+        left: 16rem;
+        top: 12rem;
+    }
+        
+    .tres img {
+        width: 21rem;
+    }
+    
+    .smile-project {
+        width: 22px;
+        left: 445px;
+        top: 139px;
+    }
+}
+
+@media (max-width: 715px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+
+    .title-2 h1 {
+        width: 100%;
+    }
+
+    .line-1 {
+        width: 11rem;
+        top: 12.5rem;
+    }
+            
+    .line-2 {
+        width: 30rem;
+        left: 470px;
+    }
+        
+    .uno {
+        font-size: 60px;
+        left: 5rem;
+        top: 3rem;
+    }
+            
+    .uno span {
+        font-size: 40px;
+    }
+            
+    .dos {
+        font-size: 60px;
+        left: 8.5rem;
+        top: 6rem;
+    }
+
+    .dos span::after {
+        content: "en";
+        font-size: 40px;
+    }
+            
+    .tres {
+        left: 14rem;
+        top: 12rem;
+    }
+        
+    .tres img {
+        width: 21rem;
+    }
+    
+    .smile-project {
+        width: 21px;
+        left: 414px;
+        top: 140px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 16rem;
+    }
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+
+    .title-2 h1 {
+        width: 100%;
+    }
+
+    .line-1 {
+        width: 11rem;
+        top: 11rem;
+    }
+            
+    .line-2 {
+        width: 30rem;
+        left: 400px;
+    }
+        
+    .uno {
+        font-size: 50px;
+        left: 4rem;
+        top: 3rem;
+    }
+            
+    .uno span {
+        font-size: 35px;
+    }
+            
+    .dos {
+        font-size: 50px;
+        left: 7rem;
+        top: 5.5rem;
+    }
+
+    .dos span::after {
+        content: "en";
+        font-size: 35px;
+    }
+            
+    .tres {
+        left: 13rem;
+        top: 10.5rem;
+    }
+        
+    .tres img {
+        width: 20rem;
+    }
+    
+    .smile-project {
+        width: 20px;
+        left: 343px;
+        top: 128px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -598,6 +1129,65 @@ footer {
         left: 75px;
     }
 
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 15rem;
+    }
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+
+    .title-2 h1 {
+        width: 100%;
+    }
+
+    .line-1 {
+        width: 9rem;
+        top: 10.5rem;
+    }
+            
+    .line-2 {
+        width: 25rem;
+        left: 320px;
+    }
+        
+    .uno {
+        font-size: 40px;
+        left: 4rem;
+        top: 3rem;
+    }
+            
+    .uno span {
+        font-size: 30px;
+    }
+            
+    .dos {
+        font-size: 40px;
+        left: 6.3rem;
+        top: 5rem;
+    }
+
+    .dos span::after {
+        content: "en";
+        font-size: 30px;
+    }
+            
+    .tres {
+        left: 10rem;
+        top: 9.5rem;
+    }
+        
+    .tres img {
+        width: 19rem;
+    }
+    
+    .smile-project {
+        width: 16px;
+        left: 285px;
+        top: 113px;
+    }
 
 }
 
@@ -636,7 +1226,66 @@ footer {
         height: 350px;
     }
     
+    /* EL TITULO */
 
+    .container-projects-2 .title-2 {
+        height: 13rem;
+    }
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+    
+    .title-2 h1 {
+        width: 100%;
+    }
+    
+    .line-1 {
+        width: 7rem;
+        top: 9rem;
+    }
+                
+    .line-2 {
+        width: 20rem;
+        left: 280px;
+        display: block!important;
+    }
+            
+    .uno {
+        font-size: 35px;
+        left: 3rem;
+        top: 3rem;
+    }
+                
+    .uno span {
+        font-size: 25px;
+    }
+                
+    .dos {
+        font-size: 35px;
+        left: 5.2rem;
+        top: 4.5rem;
+    }
+    
+    .dos span::after {
+        content: "en";
+        font-size: 25px;
+    }
+                
+    .tres {
+        left: 8.5rem;
+        top: 8.5rem;
+    }
+            
+    .tres img {
+        width: 15rem;
+    }
+        
+    .smile-project {
+        width: 14px;
+        left: 244px;
+        top: 103px;
+    }
 
 }
 
@@ -653,39 +1302,101 @@ footer {
 
 @media (max-width: 400px) {
 
-        /* Primer texto */
+    /* Primer texto */
 
-        main .text-project-1 {
-            top: 38%;
-            left: -22%;
-        }
+    main .text-project-1 {
+        top: 38%;
+        left: -22%;
+    }
 
-        /* Tarjetas */
+    /* Tarjetas */
 
-        .card {
-            height: 85px;
-        }
+    .card {
+        height: 85px;
+    }
         
-        .card__content {
-            padding: 10px;
-        }
+    .card__content {
+        padding: 10px;
+    }
     
-        .card__content .card__title {
-            font-size: 10px;
-        }
+    .card__content .card__title {
+        font-size: 10px;
+    }
     
-        .card__content .card__description {
-            font-size: 4px;
-        }
+    .card__content .card__description {
+        font-size: 4px;
+    }
     
-        .card__content .card__button {
-            font-size: 4px;
-        }
+    .card__content .card__button {
+        font-size: 4px;
+    }
         
-        /* Slider */
+    /* Slider */
         
-        .myCards {
-            height: 305px;
-        }
+    .myCards {
+        height: 305px;
+    }
+
+    /* EL TITULO */
+
+    .container-projects-2 .title-2 {
+        height: 11rem;
+    }
+
+    .container-projects-2 {
+        height: 100vh;
+    }
+    
+    .title-2 h1 {
+        width: 100%;
+    }
+    
+    .line-1 {
+        width: 5rem;
+        top: 8rem;
+    }
+                
+    .line-2 {
+        width: 13rem;
+        left: 230px;
+        top: 30px;
+    }
+            
+    .uno {
+        font-size: 30px;
+        left: 2rem;
+        top: 3rem;
+    }
+                
+    .uno span {
+        font-size: 22px;
+    }
+                
+    .dos {
+        font-size: 30px;
+        left: 3.7rem;
+        top: 4rem;
+    }
+    
+    .dos span::after {
+        content: "en";
+        font-size: 22px;
+    }
+                
+    .tres {
+        left: 6.5rem;
+        top: 7.5rem;
+    }
+            
+    .tres img {
+        width: 12rem;
+    }
+        
+    .smile-project {
+        width: 12px;
+        left: 198px;
+        top: 93px;
+    }
+
     
 }
