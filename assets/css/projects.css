@@ -176,7 +176,6 @@ main .cards-project-1 {
 /* CONTENIDO */
 
 .container-projects-2 {
-    height: 150vh;
     background-color: #8aa9a7;
     color: #497078;
     width: 100%;
@@ -247,6 +246,62 @@ main .cards-project-1 {
     width: 55px;
     left: 1000px;
     top: 295px;
+}
+
+/* PROCESO */
+
+.process {
+    color: white;
+    display: flex;
+    height: 50rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.process-numbers .number {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.process-numbers h2 {
+    font-size: 90px;
+    margin: 0px;
+}
+
+.process-numbers p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.process-info {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.process-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: 105px;
+    padding: 0rem;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.process-block p {
+    font-size: 22px;
+    line-height: 0rem;
+    margin: 0px;
 }
 
 
@@ -442,7 +497,7 @@ footer {
     /* EL TITULO */
 
     .container-projects-2 .title-2 {
-        height: 20rem;
+        height: 21rem;
     }
 
     .line-1 {
@@ -492,7 +547,7 @@ footer {
     /* EL TITULO */
 
     .container-projects-2 .title-2 {
-        height: 19rem;
+        height: 20rem;
     }
 
     .line-1 {
@@ -542,7 +597,7 @@ footer {
     /* EL TITULO */
 
     .container-projects-2 .title-2 {
-        height: 18rem;
+        height: 19rem;
     }
 
     .line-1 {
@@ -592,7 +647,7 @@ footer {
     /* EL TITULO */
 
     .container-projects-2 .title-2 {
-        height: 16rem;
+        height: 18rem;
     }
 
     .line-1 {
@@ -807,10 +862,6 @@ footer {
 
     /* EL TITULO */
 
-    .container-projects-2 {
-        height: 100vh;
-    }
-
     .title-2 h1 {
         width: 100%;
     }
@@ -871,10 +922,6 @@ footer {
 
     /* EL TITULO */
 
-    .container-projects-2 {
-        height: 100vh;
-    }
-
     .title-2 h1 {
         width: 100%;
     }
@@ -930,10 +977,6 @@ footer {
 @media (max-width: 715px) {
 
     /* EL TITULO */
-
-    .container-projects-2 {
-        height: 100vh;
-    }
 
     .title-2 h1 {
         width: 100%;
@@ -992,10 +1035,6 @@ footer {
 
     .container-projects-2 .title-2 {
         height: 16rem;
-    }
-
-    .container-projects-2 {
-        height: 100vh;
     }
 
     .title-2 h1 {
@@ -1135,10 +1174,6 @@ footer {
         height: 15rem;
     }
 
-    .container-projects-2 {
-        height: 100vh;
-    }
-
     .title-2 h1 {
         width: 100%;
     }
@@ -1230,10 +1265,6 @@ footer {
 
     .container-projects-2 .title-2 {
         height: 13rem;
-    }
-
-    .container-projects-2 {
-        height: 100vh;
     }
     
     .title-2 h1 {
@@ -1341,10 +1372,6 @@ footer {
 
     .container-projects-2 .title-2 {
         height: 11rem;
-    }
-
-    .container-projects-2 {
-        height: 100vh;
     }
     
     .title-2 h1 {
