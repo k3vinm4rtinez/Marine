@@ -1352,18 +1352,18 @@ footer {
     }
     
     .line-1 {
-        width: 5rem;
-        top: 8rem;
+        width: 6rem;
+        top: 8.5rem;
     }
                 
     .line-2 {
-        width: 13rem;
-        left: 230px;
+        width: 15rem;
+        left: 255px;
         top: 30px;
     }
             
     .uno {
-        font-size: 30px;
+        font-size: 35px;
         left: 2rem;
         top: 3rem;
     }
@@ -1373,9 +1373,9 @@ footer {
     }
                 
     .dos {
-        font-size: 30px;
+        font-size: 35px;
         left: 3.7rem;
-        top: 4rem;
+        top: 4.2rem;
     }
     
     .dos span::after {
@@ -1384,8 +1384,8 @@ footer {
     }
                 
     .tres {
-        left: 6.5rem;
-        top: 7.5rem;
+        left: 7rem;
+        top: 8rem;
     }
             
     .tres img {
@@ -1393,9 +1393,9 @@ footer {
     }
         
     .smile-project {
-        width: 12px;
-        left: 198px;
-        top: 93px;
+        width: 13px;
+        left: 221px;
+        top: 99px;
     }
 
     
