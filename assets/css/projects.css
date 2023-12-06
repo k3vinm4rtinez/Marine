@@ -256,8 +256,6 @@ main .cards-project-1 {
     height: 50rem;
     align-items: center;
     justify-content: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
 .process-numbers .number {
@@ -268,19 +266,19 @@ main .cards-project-1 {
 }
 
 .process-numbers h2 {
-    font-size: 90px;
+    font-size: 110px;
     margin: 0px;
 }
 
 .process-numbers p {
-    font-size: 20px;
-    margin-bottom: 1rem;
+    font-size: 30px;
+    margin-bottom: 1.2rem;
     margin-left: 0.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 .process-info {
-    margin-left: 2rem;
+    margin-left: 5rem;
     margin-bottom: 2rem;
 }
 
@@ -289,17 +287,17 @@ main .cards-project-1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 450px;
-    height: 105px;
+    width: 550px;
+    height: 130px;
     padding: 0rem;
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 
 .process-block p {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 0rem;
     margin: 0px;
 }
@@ -540,6 +538,45 @@ footer {
         left: 688px;
         top: 215px;
     }
+
+    /* PROCESO */
+
+    .process {
+        height: 45rem;
+    }
+
+    .process-numbers .number {
+        margin-bottom: 2rem;
+    }
+
+    .process-numbers h2 {
+        font-size: 90px;
+        margin: 0px;
+    }
+
+    .process-numbers p {
+        font-size: 22px;
+        margin-bottom: 1.1rem;
+        margin-left: 0.5rem;
+        line-height: 1.5rem;
+    }
+
+    .process-info {
+        margin-bottom: 2rem;
+    }
+
+    .process-block {
+        width: 450px;
+        height: 110px;
+        border-radius: 100px;
+    }
+
+    .process-block p {
+        font-size: 22px;
+        line-height: 0rem;
+        margin: 0px;
+    }
+
 }
 
 @media (max-width: 1280px) {
@@ -916,6 +953,44 @@ footer {
         top: 140px;
     }
 
+    /* PROCESO */
+
+    .process {
+        height: 40rem;
+    }
+
+    .process-numbers .number {
+        margin-bottom: 2rem;
+    }
+
+    .process-numbers h2 {
+        font-size: 70px;
+        margin: 0px;
+    }
+
+    .process-numbers p {
+        font-size: 16px;
+        margin-bottom: 0.8rem;
+        margin-left: 0.5rem;
+        line-height: 1.2rem;
+    }
+
+    .process-info {
+        margin-bottom: 2rem;
+    }
+
+    .process-block {
+        width: 350px;
+        height: 90px;
+        border-radius: 100px;
+    }
+
+    .process-block p {
+        font-size: 18px;
+        line-height: 0rem;
+        margin: 0px;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -1143,6 +1218,45 @@ footer {
         height: 400px;
     }
 
+    /* PROCESO */
+
+    .process {
+        height: 35rem;
+    }
+    
+    .process-numbers .number {
+        margin-bottom: 2rem;
+    }
+    
+    .process-numbers h2 {
+        font-size: 60px;
+        margin: 0px;
+    }
+    
+    .process-numbers p {
+        font-size: 12px;
+        margin-bottom: 0.8rem;
+        margin-left: 0.5rem;
+        line-height: 1rem;
+    }
+    
+    .process-info {
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .process-block {
+        width: 280px;
+        height: 75px;
+        border-radius: 100px;
+    }
+    
+    .process-block p {
+        font-size: 15px;
+        line-height: 0rem;
+        margin: 0px;
+    }
+
 }
 
 @media (max-width: 570px) {
@@ -1318,6 +1432,44 @@ footer {
         top: 103px;
     }
 
+    /* PROCESO */
+
+    .process {
+        height: 30rem;
+    }
+        
+    .process-numbers .number {
+        margin-bottom: 2rem;
+    }
+        
+    .process-numbers h2 {
+        font-size: 45px;
+        margin: 0px;
+    }
+        
+    .process-numbers p {
+        font-size: 10px;
+        margin-bottom: 0.6rem;
+        margin-left: 0.5rem;
+        line-height: 0.7rem;
+    }
+        
+    .process-info {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+        
+    .process-block {
+        width: 240px;
+        height: 60px;
+        border-radius: 100px;
+    }
+        
+    .process-block p {
+        font-size: 12px;
+        margin: 0px;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -1425,5 +1577,43 @@ footer {
         top: 99px;
     }
 
-    
+    /* PROCESO */
+
+    .process {
+        height: 25rem;
+    }
+        
+    .process-numbers .number {
+        margin-bottom: 2rem;
+    }
+        
+    .process-numbers h2 {
+        font-size: 35px;
+        margin: 0px;
+    }
+        
+    .process-numbers p {
+        font-size: 8px;
+        margin-bottom: 0.4rem;
+        margin-left: 0.5rem;
+        line-height: 0.6rem;
+    }
+        
+    .process-info {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+        
+    .process-block {
+        width: 200px;
+        height: 50px;
+        border-radius: 100px;
+    }
+        
+    .process-block p {
+        font-size: 8px;
+        margin: 0px;
+        line-height: -10rem;
+    }
+
 }
