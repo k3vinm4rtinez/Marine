@@ -298,7 +298,6 @@ main .cards-project-1 {
 
 .process-block p {
     font-size: 28px;
-    line-height: 0rem;
     margin: 0px;
 }
 
@@ -573,7 +572,6 @@ footer {
 
     .process-block p {
         font-size: 22px;
-        line-height: 0rem;
         margin: 0px;
     }
 
@@ -987,7 +985,6 @@ footer {
 
     .process-block p {
         font-size: 18px;
-        line-height: 0rem;
         margin: 0px;
     }
 
@@ -1253,7 +1250,6 @@ footer {
     
     .process-block p {
         font-size: 15px;
-        line-height: 0rem;
         margin: 0px;
     }
 
@@ -1613,7 +1609,6 @@ footer {
     .process-block p {
         font-size: 8px;
         margin: 0px;
-        line-height: -10rem;
     }
 
 }
