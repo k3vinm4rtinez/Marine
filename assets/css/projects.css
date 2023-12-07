@@ -725,12 +725,11 @@ footer {
 
 @media (max-width: 1050px) {
 
-    /* Primer texto */
-
-    main .text-project-1 {
-        top: 38%;
-        left: -1rem;
+    main .container-projects-1 {
+        height: 95vh;
     }
+
+    /* Primer texto */
 
     main .text-project-1 h1 {
         font-size: 65px;
@@ -744,11 +743,11 @@ footer {
 
     main .cards-project-1 {
         margin-right: 10px;
-        width: 55%;
+        width: 60%;
     }
 
-    .card {
-        width: 250px!important;
+    main .card {
+        width: 240px;
     }
 
     .card__content .card__title {
@@ -767,43 +766,38 @@ footer {
 
 @media (max-width: 990px) {
 
-        /* Primer texto */
-
-        main .text-project-1 {
-            top: 38%;
-            left: -1rem;
-        }
+    /* Primer texto */
     
-        main .text-project-1 h1 {
-            font-size: 60px;
-        }
+    main .text-project-1 h1 {
+        font-size: 60px;
+    }
             
-        main .text-project-1 li {
-            font-size: 16px;
-        }
+    main .text-project-1 li {
+        font-size: 16px;
+    }
     
-        /* Tarjetas de proyectos */
+    /* Tarjetas de proyectos */
     
-        main .cards-project-1 {
-            margin-right: 10px;
-            width: 55%;
-        }
+    main .cards-project-1 {
+        margin-right: 10px;
+        width: 55%;
+    }
     
-        .card {
-            width: 220px;
-        }
+    main .card {
+        width: 220px;
+    }
     
-        .card__content .card__title {
-            font-size: 14px;
-        }
+    .card__content .card__title {
+        font-size: 14px;
+    }
     
-        .card__content .card__description {
-            font-size: 6px;
-        }
+    .card__content .card__description {
+        font-size: 6px;
+    }
     
-        .card__content .card__button {
-            font-size: 8px;
-        }
+    .card__content .card__button {
+        font-size: 8px;
+    }
     
 
     /* EL TITULO */
@@ -860,17 +854,20 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        top: 34%;
-    }
-
     main .line {
         display: block;
         width: 26px;
     }
 
+    main .text-project-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
     main .text-project-1 h1 {
-        font-size: 85px;
+        font-size: 78px;
     }
         
     main .text-project-1 li {
@@ -883,7 +880,7 @@ footer {
         display: none;
     }
 
-    .card {
+    main .card {
         height: 140px;
         margin: 0%;
         margin-bottom: 5%;
@@ -903,14 +900,13 @@ footer {
         flex-direction: column;
         align-items: center;
         z-index: 0;
-        margin-right: 5%;
-        width: auto;
+        width: 50%;
     }
 
     .myCards {
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 490px;
         overflow: scroll;
         width: auto;
     }
@@ -1027,6 +1023,76 @@ footer {
 
 @media (max-width: 800px) {
 
+    main .container-projects-1 {
+        justify-content: space-around;
+    }
+
+    /* Primer texto */
+
+    main .line {
+        display: block;
+        width: 26px;
+    }
+
+    main .text-project-1 h1 {
+        font-size: 78px;
+    }
+        
+    main .text-project-1 li {
+        font-size: 20px;
+    }
+
+    /* Tarjetas de proyectos */
+
+    main .cards-project-1 {
+        display: none;
+    }
+
+    main .card {
+        height: 140px;
+        margin: 0%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+    /* mySlider */
+
+    .mySlider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+    }
+
+    .myCards {
+        display: flex;
+        flex-direction: column;
+        height: 490px;
+        overflow: scroll;
+        width: auto;
+    }
+
+    .myCards::-webkit-scrollbar{
+        display: none;
+    }
+
+    .myCards div {
+        width: 100%;
+        display: grid;
+        flex: none;
+    }
+
+    #backBtn img, #nextBtn img {
+        width: 35px;
+        cursor: pointer;
+    }
+
     /* EL TITULO */
 
     .title-2 h1 {
@@ -1138,6 +1204,73 @@ footer {
 
 @media (max-width: 670px) {
 
+    /* Primer texto */
+
+    main .line {
+        display: block;
+        width: 26px;
+    }
+
+    main .text-project-1 h1 {
+        font-size: 78px;
+    }
+        
+    main .text-project-1 li {
+        font-size: 20px;
+    }
+
+    /* Tarjetas de proyectos */
+
+    main .cards-project-1 {
+        display: none;
+    }
+
+    main .card {
+        height: 130px;
+        margin: 0%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+    /* mySlider */
+
+    .mySlider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+        width: 50%;
+    }
+
+    .myCards {
+        display: flex;
+        flex-direction: column;
+        height: 470px;
+        overflow: scroll;
+        width: auto;
+    }
+
+    .myCards::-webkit-scrollbar{
+        display: none;
+    }
+
+    .myCards div {
+        width: 100%;
+        display: grid;
+        flex: none;
+    }
+
+    #backBtn img, #nextBtn img {
+        width: 35px;
+        cursor: pointer;
+    }
+
     /* EL TITULO */
 
     .container-projects-2 .title-2 {
@@ -1197,23 +1330,14 @@ footer {
 
 @media (max-width: 650px) {
 
-    main .container-projects-1 {
-        height: 80vh;
-    }
-
     /* Primer texto */
-
-    main .text-project-1 {
-        top: 35%;
-        left: -5%;
-    }
 
     main .text-project-1 h1 {
         font-size: 70px;
     }
 
     main .text-project-1 li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* Linea */
@@ -1224,8 +1348,8 @@ footer {
 
     /* Tarjetas */
 
-    .card {
-        height: 112px;
+    main .card {
+        height: 130px;
     }
 
     .card__content {
@@ -1247,7 +1371,7 @@ footer {
     /* Slider */
 
     .myCards {
-        height: 400px;
+        height: 470px;
     }
 
     /* PROCESO */
@@ -1294,23 +1418,73 @@ footer {
 
     /* Primer texto */
 
+    main .line {
+        display: block;
+        width: 26px;
+    }
+
     main .text-project-1 {
-        top: 35%;
-        left: -10%;
+        width: 50%;
     }
 
     main .text-project-1 h1 {
         font-size: 70px;
     }
-
+        
     main .text-project-1 li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    /* Linea */
+    /* Tarjetas de proyectos */
 
-    main .line {
-        left: 75px;
+    main .cards-project-1 {
+        display: none;
+    }
+
+    main .card {
+        height: 120px;
+        margin: 0%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+    /* mySlider */
+
+    .mySlider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+        width: 50%;
+    }
+
+    .myCards {
+        display: flex;
+        flex-direction: column;
+        height: 430px;
+        overflow: scroll;
+        width: auto;
+    }
+
+    .myCards::-webkit-scrollbar{
+        display: none;
+    }
+
+    .myCards div {
+        width: 100%;
+        display: grid;
+        flex: none;
+    }
+
+    #backBtn img, #nextBtn img {
+        width: 35px;
+        cursor: pointer;
     }
 
     /* EL TITULO */
@@ -1375,17 +1549,12 @@ footer {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        top: 38%;
-        left: -15%;
-    }
-
     main .text-project-1 h1 {
-        font-size: 60px;
+        font-size: 62px;
     }
 
     main .text-project-1 li {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* Linea */
@@ -1396,14 +1565,14 @@ footer {
 
     /* Tarjetas */
 
-    .card {
-        height: 100px;
+    main .card {
+        height: 110px;
     }
     
     /* Slider */
     
     .myCards {
-        height: 350px;
+        height: 390px;
     }
     
     /* EL TITULO */
@@ -1503,30 +1672,15 @@ footer {
 
 }
 
-@media (max-width: 450px) {
-
-    /* Linea */
-
-    main .line {
-        left: 20px;
-        width: 24px;
-    }
-
-}
-
 @media (max-width: 400px) {
 
     /* Primer texto */
 
-    main .text-project-1 {
-        top: 38%;
-        left: -22%;
-    }
 
     /* Tarjetas */
 
-    .card {
-        height: 85px;
+    main .card {
+        height: 90px;
     }
         
     .card__content {
