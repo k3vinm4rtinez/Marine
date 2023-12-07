@@ -1584,13 +1584,13 @@ footer {
     }
         
     .process-numbers h2 {
-        font-size: 35px;
+        font-size: 38px;
         margin: 0px;
     }
         
     .process-numbers p {
-        font-size: 8px;
-        margin-bottom: 0.4rem;
+        font-size: 10px;
+        margin-bottom: 0.5rem;
         margin-left: 0.5rem;
         line-height: 0.6rem;
     }
@@ -1607,7 +1607,7 @@ footer {
     }
         
     .process-block p {
-        font-size: 8px;
+        font-size: 10px;
         margin: 0px;
     }
 
