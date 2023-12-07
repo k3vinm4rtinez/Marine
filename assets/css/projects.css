@@ -725,6 +725,10 @@ footer {
 
 @media (max-width: 1050px) {
 
+    main .container-projects-1 {
+        height: 95vh;
+    }
+
     /* Primer texto */
 
     main .text-project-1 h1 {
@@ -1543,6 +1547,10 @@ footer {
 
 @media (max-width: 500px) {
 
+    main .container-projects-1 {
+        height: 90vh;
+    }
+
     /* Primer texto */
 
     main .text-project-1 h1 {
@@ -1670,7 +1678,7 @@ footer {
 
 @media (max-width: 400px) {
 
-
+    
 
     /* Primer texto */
 
@@ -1700,7 +1708,7 @@ footer {
     /* Slider */
         
     .myCards {
-        height: 305px;
+        height: 320px;
     }
 
     /* EL TITULO */
