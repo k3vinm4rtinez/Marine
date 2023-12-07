@@ -18,12 +18,12 @@ header {
 
 main .container-projects-1 {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
     height: 100vh;
     position: relative;
-    flex-direction: row-reverse;
     overflow: hidden;
-    padding-bottom: 3rem;
+    padding: 0rem;
 }
 
 main .line {
@@ -38,7 +38,6 @@ main .line {
 
 main .text-project-1 {
     transform: rotate(-90deg);
-    position: absolute;
     left: -2rem;
     bottom: 11rem;
     color: #497078;
@@ -67,7 +66,6 @@ main .cards-project-1 {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%;
 }
 
 .card {
@@ -421,7 +419,7 @@ footer {
     /* Primer texto */
 
     main .text-project-1 h1 {
-        font-size: 70px;
+        font-size: 75px;
     }
 
     main .text-project-1 li {
@@ -433,7 +431,6 @@ footer {
 
     main .cards-project-1 {
         width: 55%;
-        margin-top: 10%;
     }
 
     main .card {
