@@ -725,10 +725,6 @@ footer {
 
 @media (max-width: 1050px) {
 
-    main .container-projects-1 {
-        height: 95vh;
-    }
-
     /* Primer texto */
 
     main .text-project-1 h1 {
@@ -1673,6 +1669,8 @@ footer {
 }
 
 @media (max-width: 400px) {
+
+
 
     /* Primer texto */
 
