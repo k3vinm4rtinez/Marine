@@ -39,8 +39,8 @@ main .line {
 main .text-project-1 {
     transform: rotate(-90deg);
     position: absolute;
-    left: -7rem;
-    bottom: 10rem;
+    left: -2rem;
+    bottom: 11rem;
     color: #497078;
     width: auto;
     height: auto;
@@ -421,7 +421,7 @@ footer {
     /* Primer texto */
 
     main .text-project-1 h1 {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     main .text-project-1 li {
@@ -437,7 +437,7 @@ footer {
     }
 
     main .card {
-        width: 270px;
+        width: 260px;
     }
 
     /* EL TITULO */
@@ -733,15 +733,15 @@ footer {
 
     main .text-project-1 {
         top: 38%;
-        left: 0%;
+        left: -1rem;
     }
 
     main .text-project-1 h1 {
-        font-size: 70px;
+        font-size: 65px;
     }
         
     main .text-project-1 li {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /* Tarjetas de proyectos */
@@ -752,7 +752,7 @@ footer {
     }
 
     .card {
-        width: 220px;
+        width: 250px!important;
     }
 
     .card__content .card__title {
@@ -770,6 +770,45 @@ footer {
 }
 
 @media (max-width: 990px) {
+
+        /* Primer texto */
+
+        main .text-project-1 {
+            top: 38%;
+            left: -1rem;
+        }
+    
+        main .text-project-1 h1 {
+            font-size: 60px;
+        }
+            
+        main .text-project-1 li {
+            font-size: 16px;
+        }
+    
+        /* Tarjetas de proyectos */
+    
+        main .cards-project-1 {
+            margin-right: 10px;
+            width: 55%;
+        }
+    
+        .card {
+            width: 220px;
+        }
+    
+        .card__content .card__title {
+            font-size: 14px;
+        }
+    
+        .card__content .card__description {
+            font-size: 6px;
+        }
+    
+        .card__content .card__button {
+            font-size: 8px;
+        }
+    
 
     /* EL TITULO */
 
