@@ -304,17 +304,25 @@ main .cards-project-1 {
     padding-left: 3rem!important;
 }
 
-.pb-3 span {
+.pb-3 .mini-1 {
     position: absolute;
     right: 3rem;
     bottom: 0.5rem;
     text-align: center;
 }
 
-.pb-3 span p {
+.pb-3 .mini-1 p {
     font-size: 16px;
 }
 
+.pb-4 .mini-2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
 
 /* FOOTER */
 
@@ -592,11 +600,15 @@ footer {
         padding-left: 2.5rem!important;
     }
 
-    .pb-3 span {
+    .pb-3 .mini-1 {
         bottom: 0.7rem;
     }
 
-    .pb-3 span p {
+    .pb-3 .mini-1 p {
+        font-size: 13px;
+    }
+
+    .pb-4 .mini-2 p {
         font-size: 13px;
     }
 
@@ -1052,12 +1064,16 @@ footer {
         padding-left: 2rem!important;
     }
 
-    .pb-3 span {
+    .pb-3 .mini-1 {
         bottom: 0.7rem;
         right: 2rem;
     }
 
-    .pb-3 span p {
+    .pb-3 .mini-1 p {
+        font-size: 10px;
+    }
+
+    .pb-4 .mini-2 p {
         font-size: 10px;
     }
 
@@ -1458,12 +1474,16 @@ footer {
         padding-left: 1.5rem!important;
     }
 
-    .pb-3 span {
+    .pb-3 .mini-1 {
         bottom: 0.6rem;
         right: 1.5rem;
     }
 
-    .pb-3 span p {
+    .pb-3 .mini-1 p {
+        font-size: 8px;
+    }
+
+    .pb-4 .mini-2 p {
         font-size: 8px;
     }
 
@@ -1733,12 +1753,16 @@ footer {
         padding-left: 1.5rem!important;
     }
 
-    .pb-3 span {
+    .pb-3 .mini-1 {
         bottom: 0.6rem;
         right: 1.8rem;
     }
 
-    .pb-3 span p {
+    .pb-3 .mini-1 p {
+        font-size: 6px;
+    }
+
+    .pb-4 .mini-2 p {
         font-size: 6px;
     }
 
@@ -1878,12 +1902,16 @@ footer {
         padding-left: 1rem!important;
     }
 
-    .pb-3 span {
+    .pb-3 .mini-1 {
         bottom: 0.6rem;
         right: 2rem;
     }
 
-    .pb-3 span p {
+    .pb-3 .mini-1 p {
+        font-size: 5px;
+    }
+
+    .pb-4 .mini-2 p {
         font-size: 5px;
     }
 
