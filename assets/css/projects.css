@@ -346,7 +346,7 @@ main .cards-project-1 {
     align-items: flex-start;
     justify-content: flex-start;
     background-color: #8aa9a7;
-    height: 150vh;
+    height: 110vh;
     color: white;
     position: relative;
     padding-left: 10rem;
@@ -471,7 +471,6 @@ footer {
     /* EMPECEMOS */
 
     .start {
-        height: 150vh;
         padding-left: 8rem;
         padding-top: 13rem;
     }
@@ -546,7 +545,6 @@ footer {
     /* EMPECEMOS */
 
     .start {
-        height: 150vh;
         padding-left: 6rem;
         padding-top: 11rem;
     }
@@ -742,28 +740,27 @@ footer {
         font-size: 13px;
     }
 
-        /* EMPECEMOS */
+    /* EMPECEMOS */
 
-        .start {
-            height: 150vh;
-            padding-left: 6rem;
-            padding-top: 11rem;
-        }
+    .start {
+        padding-left: 6rem;
+        padding-top: 11rem;
+    }
         
-        .start-text p {
-            font-size: 60px;
-        }
+    .start-text p {
+        font-size: 60px;
+    }
             
-        .start-text h1 {
-            font-size: 130px;
-        }
+    .start-text h1 {
+        font-size: 130px;
+    }
         
-        .start-buttons button {
-            width: 28rem;
-            height: 6rem;
-            margin: 0.4rem;
-            font-size: 32px;
-        }
+    .start-buttons button {
+        width: 28rem;
+        height: 6rem;
+        margin: 0.4rem;
+        font-size: 32px;
+    }
 
 }
 
