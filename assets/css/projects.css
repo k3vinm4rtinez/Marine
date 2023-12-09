@@ -16,6 +16,10 @@ header {
 
 /* MAIN */
 
+main {
+    position: relative;
+}
+
 main .container-projects-1 {
     display: flex;
     align-items: center;
@@ -274,6 +278,10 @@ main .cards-project-1 {
 }
 
 .process-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     margin-left: 5rem;
     margin-bottom: 2rem;
 }
@@ -322,6 +330,81 @@ main .cards-project-1 {
 
 .italic {
     font-style: italic;
+}
+
+.start-arrow {
+    position: absolute;
+    bottom: -10rem;
+    width: 6rem;
+    z-index: 1;
+}
+
+/* EMPECEMOS */
+
+.start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #8aa9a7;
+    height: 150vh;
+    color: white;
+    position: relative;
+    padding-left: 10rem;
+    padding-top: 15rem;
+}
+
+.start-text {
+    z-index: 1;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+}
+
+.start-text p {
+    font-size: 100px;
+}
+
+.start-text h1 {
+    font-size: 200px;
+}
+
+.start-buttons {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+.start-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44rem;
+    height: 8rem;
+    border: none;
+    border-radius: 5rem;
+    margin: 1rem;
+    font-size: 44px;
+}
+
+.start-buttons .btn-meeting {
+    background-color: #497078;
+    color: white
+}
+
+.start-buttons .btn-plans {
+    color: #497078;
+}
+
+.curve {
+    position: absolute;
+    width: 100%;
+    bottom: 5rem;
+    object-fit: contain;
+    opacity: 0.5;
+    z-index: 0;
 }
 
 /* FOOTER */
@@ -384,6 +467,30 @@ footer {
         left: 922px;
         top: 275px;
     }
+
+    /* EMPECEMOS */
+
+    .start {
+        height: 150vh;
+        padding-left: 8rem;
+        padding-top: 13rem;
+    }
+
+    .start-text p {
+        font-size: 80px;
+    }
+    
+    .start-text h1 {
+        font-size: 170px;
+    }
+
+    .start-buttons button {
+        width: 36rem;
+        height: 7rem;
+        margin: 0.8rem;
+        font-size: 40px;
+    }
+
 }
 
 
@@ -434,6 +541,29 @@ footer {
         width: 42px;
         left: 797px;
         top: 242px;
+    }
+
+    /* EMPECEMOS */
+
+    .start {
+        height: 150vh;
+        padding-left: 6rem;
+        padding-top: 11rem;
+    }
+    
+    .start-text p {
+        font-size: 70px;
+    }
+        
+    .start-text h1 {
+        font-size: 150px;
+    }
+    
+    .start-buttons button {
+        width: 32rem;
+        height: 6.5rem;
+        margin: 0.5rem;
+        font-size: 36px;
     }
 
 }
@@ -487,7 +617,7 @@ footer {
     }
         
     .dos {
-        font-size: 100px;
+        font-size: 150px;
         left: 17.5rem;
         top: 10.5rem;
     }
@@ -611,6 +741,29 @@ footer {
     .pb-4 .mini-2 p {
         font-size: 13px;
     }
+
+        /* EMPECEMOS */
+
+        .start {
+            height: 150vh;
+            padding-left: 6rem;
+            padding-top: 11rem;
+        }
+        
+        .start-text p {
+            font-size: 60px;
+        }
+            
+        .start-text h1 {
+            font-size: 130px;
+        }
+        
+        .start-buttons button {
+            width: 28rem;
+            height: 6rem;
+            margin: 0.4rem;
+            font-size: 32px;
+        }
 
 }
 
