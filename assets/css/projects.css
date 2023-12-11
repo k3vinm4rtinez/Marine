@@ -2230,7 +2230,7 @@ footer {
 
     .start {
         padding: 0rem;
-        height: 43vh;
+        height: 42vh;
         flex-direction: column;
         justify-content: flex-end;
     }
