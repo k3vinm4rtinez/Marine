@@ -558,7 +558,7 @@ footer .container-icons img:hover {
         height: 10%;
         position: fixed;
         width: 100%;
-        z-index: 1;
+        z-index: 10;
     }
 
     .container-open {

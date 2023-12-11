@@ -862,6 +862,32 @@ footer {
         left: 570px;
         top: 193px;
     }
+
+    /* EMPECEMOS */
+
+    .start {
+        padding-left: 5rem;
+        padding-top: 10rem;
+    }
+
+    .start-text {
+        line-height: 2.5rem;
+    }
+        
+    .start-text p {
+        font-size: 55px;
+    }
+            
+    .start-text h1 {
+        font-size: 120px;
+    }
+        
+    .start-buttons button {
+        width: 22rem;
+        height: 5rem;
+        margin: 0.3rem;
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -1036,6 +1062,37 @@ footer {
         width: 24px;
         left: 460px;
         top: 171px;
+    }
+
+    /* EMPECEMOS */
+
+    .start {
+        padding-left: 5rem;
+        padding-top: 10rem;
+    }
+
+    .start-text {
+        line-height: 1.5rem;
+    }
+        
+    .start-text p {
+        font-size: 40px;
+    }
+            
+    .start-text h1 {
+        font-size: 100px;
+    }
+        
+    .start-buttons button {
+        width: 18rem;
+        height: 4rem;
+        margin: 0.3rem;
+        font-size: 22px;
+    }
+
+    .start-arrow {
+        width: 4rem;
+        bottom: -8rem;
     }
 }
 
@@ -1225,6 +1282,33 @@ footer {
 
     .pb-4 .mini-2 p {
         font-size: 10px;
+    }
+
+    /* EMPECEMOS */
+
+    .start {
+        padding-left: 4rem;
+        padding-top: 6rem;
+        height: 80vh;
+    }
+
+    .start-text {
+        line-height: 1rem;
+    }
+        
+    .start-text p {
+        font-size: 30px;
+    }
+            
+    .start-text h1 {
+        font-size: 80px;
+    }
+        
+    .start-buttons button {
+        width: 12rem;
+        height: 3rem;
+        margin: 0.3rem;
+        font-size: 16px;
     }
 
 }
@@ -1637,6 +1721,38 @@ footer {
         font-size: 8px;
     }
 
+    /* EMPECEMOS */
+
+    .start {
+        padding-left: 2rem;
+        padding-top: 4rem;
+        height: 70vh;
+    }
+
+    .start-text {
+        line-height: 0rem;
+    }
+        
+    .start-text p {
+        font-size: 25px;
+    }
+            
+    .start-text h1 {
+        font-size: 65px;
+    }
+        
+    .start-buttons button {
+        width: 10rem;
+        height: 2.5rem;
+        margin: 0.2rem;
+        font-size: 14px;
+    }
+
+    .start-arrow {
+        width: 3rem;
+        bottom: -5rem;
+    }
+
 }
 
 @media (max-width: 570px) {
@@ -1916,6 +2032,33 @@ footer {
         font-size: 6px;
     }
 
+    /* EMPECEMOS */
+
+    .start {
+        padding-left: 2rem;
+        padding-top: 3rem;
+        height: 60vh;
+    }
+
+    .start-text {
+        line-height: 0rem;
+    }
+        
+    .start-text p {
+        font-size: 20px;
+    }
+            
+    .start-text h1 {
+        font-size: 50px;
+    }
+        
+    .start-buttons button {
+        width: 7.5rem;
+        height: 2rem;
+        margin: 0.1rem;
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -2064,5 +2207,33 @@ footer {
     .pb-4 .mini-2 p {
         font-size: 5px;
     }
+
+    /* EMPECEMOS */
+
+    .start {
+        padding-left: 2rem;
+        padding-top: 3rem;
+        height: 50vh;
+    }
+
+    .start-text {
+        line-height: 0rem;
+    }
+        
+    .start-text p {
+        font-size: 15px;
+    }
+            
+    .start-text h1 {
+        font-size: 40px;
+    }
+        
+    .start-buttons button {
+        width: 7rem;
+        height: 1.7rem;
+        margin: 0.1rem;
+        font-size: 10px;
+    }
+
 
 }
