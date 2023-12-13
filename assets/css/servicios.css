@@ -6,7 +6,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 4rem;
+    padding: 5rem;
 }
 
 .first-text h1 {
@@ -15,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     margin: 0rem;
+    font-weight: normal;
 }
 
 .first-text h1 img {
@@ -73,13 +74,21 @@ footer {
 
     /* HEADER */
 
+    header {
+        padding: 4rem;
+    }
+
     .first-text h1 {
-        font-size:  100px;
+        font-size:  110px;
+    }
+
+    .first-text h1 img {
+        width: 4rem;
     }
 
     .card {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
 }
