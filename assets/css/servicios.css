@@ -419,6 +419,7 @@ footer {
     .first-text .one::after {
         content: url("../../libs/img/green-smile.png");
         transform: scale(0.5) rotate(5deg);
+        margin-top: 1rem;
     }
 
     .first-text .two {
