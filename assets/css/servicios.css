@@ -401,6 +401,7 @@ footer {
 
     .first-text h1 {
         font-size:  90px;
+        line-height: 5rem;
     }
 
     .first-text h1 img {
@@ -495,7 +496,7 @@ footer {
 
     header {
         padding: 4rem 0rem 4rem 0rem;
-        height: 80vh;
+        height: 90vh;
     }
 
     .first-text h1 {
@@ -594,7 +595,6 @@ footer {
 
     header {
         padding: 4rem 0rem 4rem 0rem;
-        height: 70vh;
     }
 
     .first-text h1 {
@@ -695,7 +695,6 @@ footer {
 
     header {
         padding: 6rem 0rem 6rem 0rem;
-        height: 70vh;
     }
 
     .first-text h1 {
