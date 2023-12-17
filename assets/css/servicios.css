@@ -406,7 +406,7 @@ footer {
 
     .first-text h1 {
         font-size:  90px;
-        line-height: 3.5rem;
+        line-height: 6rem;
     }
 
     .first-text h1 img {
@@ -423,13 +423,15 @@ footer {
 
     .first-text .one::after {
         content: url("../../libs/img/green-smile.png");
-        transform: scale(0.5) rotate(5deg);
-        margin-top: 1rem;
+        transform: scale(0.08) rotate(10deg);
+        width: 1rem;
+        height: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
     }
 
     .first-text .two {
         display: block!important;
-        padding-bottom: 1rem;
     }
 
     .first-text .two span {
@@ -447,6 +449,10 @@ footer {
         height: 140px;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .card p {
+        font-size: 20px;
     }
 }
 
@@ -504,6 +510,7 @@ footer {
 
     .first-text h1 {
         font-size:  80px;
+        line-height: 5rem;
     }
 
     .first-text h1 img {
@@ -516,12 +523,6 @@ footer {
 
     .first-text .one span {
         display: none;
-    }
-
-    .first-text .one::after {
-        content: url("../../libs/img/green-smile.png");
-        transform: scale(0.45) rotate(5deg);
-        
     }
 
     .first-text .two::before {
@@ -602,6 +603,7 @@ footer {
 
     .first-text h1 {
         font-size:  70px;
+        line-height: 4rem;
     }
 
     .first-text h1 img {
@@ -614,12 +616,6 @@ footer {
 
     .first-text .one span {
         display: none;
-    }
-
-    .first-text .one::after {
-        content: url("../../libs/img/green-smile.png");
-        transform: scale(0.40) rotate(5deg);
-        
     }
 
     .first-text .two::before {
@@ -641,6 +637,10 @@ footer {
         height: 115px;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .card p {
+        font-size: 14px;
     }
 
     /* PLANES */
@@ -719,12 +719,6 @@ footer {
 
     .first-text .one span {
         display: none;
-    }
-
-    .first-text .one::after {
-        content: url("../../libs/img/green-smile.png");
-        transform: scale(0.40) rotate(5deg);
-        
     }
 
     .first-text .two::before {
