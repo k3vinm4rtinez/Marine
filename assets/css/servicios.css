@@ -220,6 +220,51 @@ header {
     font-style: italic;
 }
 
+/* FINAL */
+
+.final {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #497078;
+    position: relative;
+    height: 70vh;
+}
+
+.final-text {
+    display: flex;
+    align-items: center;
+}
+
+.final-text h2 {
+    font-size: 50px;
+    z-index: 1;
+}
+
+.final-text h1 {
+    font-size: 150px;
+}
+
+.final-button button {
+    background-color: #497078;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    width: 22rem;
+    height: 4rem;
+    font-size: 28px;
+}
+
+.final-pattern {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+}
+
 /* FOOTER */
 
 footer {
@@ -324,6 +369,23 @@ footer {
         width: 22rem;
         padding: 1rem;
         line-height: 2rem;
+    }
+
+    /* FINAL */
+
+    .final-text h2 {
+        font-size: 40px;
+    }
+    
+    .final-text h1 {
+        font-size: 120px;
+    }
+    
+    .final-button button {
+        border-radius: 5rem;
+        width: 18rem;
+        height: 3.5rem;
+        font-size: 20px;
     }
 
 }
@@ -454,6 +516,27 @@ footer {
     .card p {
         font-size: 20px;
     }
+
+    /* FINAL */
+
+    .final {
+        height: 50vh;
+    }
+
+    .final-text h2 {
+        font-size: 30px;
+    }
+    
+    .final-text h1 {
+        font-size: 100px;
+    }
+    
+    .final-button button {
+        border-radius: 5rem;
+        width: 16rem;
+        height: 3rem;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -497,6 +580,30 @@ footer {
         font-size: 16px;
     }
 
+}
+
+@media (max-width: 750px) {
+    
+    /* FINAL */
+
+    .final {
+        height: 40vh;
+    }
+
+    .final-text h2 {
+        font-size: 20px;
+    }
+    
+    .final-text h1 {
+        font-size: 80px;
+    }
+    
+    .final-button button {
+        border-radius: 5rem;
+        width: 12rem;
+        height: 2.5rem;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -700,6 +807,27 @@ footer {
     .extra-button button p {
         line-height: 0.5rem;
         font-size: 6px;
+    }
+
+    /* FINAL */
+
+    .final {
+        height: 20vh;
+    }
+
+    .final-text h2 {
+        font-size: 14px;
+    }
+    
+    .final-text h1 {
+        font-size: 50px;
+    }
+    
+    .final-button button {
+        border-radius: 5rem;
+        width: 8rem;
+        height: 2rem;
+        font-size: 12px;
     }
 }
 
