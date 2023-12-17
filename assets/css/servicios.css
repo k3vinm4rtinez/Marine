@@ -618,6 +618,12 @@ footer {
         display: none;
     }
 
+    .first-text .one::after {
+        transform: scale(0.06) rotate(10deg);
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
     .first-text .two::before {
         display: block;
     }
