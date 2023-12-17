@@ -420,8 +420,8 @@ footer {
         transform: scale(0.5) rotate(5deg);
     }
 
-    .first-text .two::before {
-        display: block;
+    .first-text .two {
+        display: block!important;
     }
 
     .first-text .two span {
