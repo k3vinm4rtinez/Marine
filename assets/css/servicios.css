@@ -423,7 +423,7 @@ footer {
 
     .first-text .two {
         display: block!important;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
     }
 
     .first-text .two span {
