@@ -26,7 +26,7 @@ header {
     width: 7rem;
     transform: rotate(5deg);
     position: absolute;
-    right: 4rem;
+    right: 7rem;
 }
 
 .one span {
@@ -155,7 +155,7 @@ header {
 
 .info-plan ul {
     list-style: none;
-    font-size: 40px;
+    font-size: 45px;
     padding: 4rem;
     margin: 0rem;
     line-height: 3.5rem;
