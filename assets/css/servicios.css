@@ -401,7 +401,7 @@ footer {
 
     .first-text h1 {
         font-size:  90px;
-        line-height: 4.5rem;
+        line-height: 4rem;
     }
 
     .first-text h1 img {
@@ -423,6 +423,7 @@ footer {
 
     .first-text .two {
         display: block!important;
+        padding-bottom: 0.5rem;
     }
 
     .first-text .two span {
