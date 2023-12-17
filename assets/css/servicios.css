@@ -664,7 +664,7 @@ footer {
     }
     
     .info-plan button {
-        font-size: 10px;
+        font-size: 12px;
         width: 8rem;
         padding: 1rem;
         line-height: 0.8rem;
@@ -672,12 +672,13 @@ footer {
     }
 
     .extra {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .extra-text p {
-        font-size: 10px;
-        line-height: 0rem;
+        font-size: 8px;
+        line-height: 0.8rem;
+        margin: 0rem;
     }
 
     .extra-button button {
