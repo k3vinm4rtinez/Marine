@@ -1261,7 +1261,8 @@ footer {
     }
 
     .pb-3 {
-        padding-left: 2rem!important;
+        align-items: center;
+        padding: 0rem!important;
     }
 
     .pb-3 .mini-1 {
