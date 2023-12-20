@@ -325,11 +325,13 @@ tbody p {
 
 .pb-3 .mini-1 p {
     font-size: 16px;
+    line-height: 1.5rem;
 }
 
 .pb-4 .mini-2 p {
     font-size: 16px;
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .italic {
