@@ -195,8 +195,8 @@ header {
 
 .extra-text p {
     color: white;
-    line-height: 0.5rem;
-    font-size: 28px;
+    line-height: 2rem;
+    font-size: 30px;
 }
 
 .extra-button button {
@@ -205,9 +205,9 @@ header {
     border-radius: 4rem;
     padding: 1rem;
     color: white;
-    font-size: 20px;
-    width: 20rem;
-    height: 6rem;
+    font-size: 24px;
+    width: 26rem;
+    height: 8rem;
 }
 
 .extra-button button p {
@@ -371,6 +371,16 @@ footer {
         line-height: 2rem;
     }
 
+    .extra-text p {
+        line-height: 2rem;
+        font-size: 26px;
+    }
+    
+    .extra-button button {
+        width: 22rem;
+        height: 6rem;
+    }
+
     /* FINAL */
 
     .final-text h2 {
@@ -440,19 +450,19 @@ footer {
     }
 
     .extra-text p {
-        font-size: 24px;
+        line-height: 1.5rem;
+        font-size: 22px;
     }
-
+    
     .extra-button button {
-        width: 16rem;
-        height: 4rem;
-        padding: 0rem;
+        width: 18rem;
+        height: 5rem;
     }
     
     .extra-button button p {
         margin: 0rem;
         line-height: 1.5rem;
-        font-size: 20px;
+        font-size: 22px;
     }
 
 }
@@ -565,8 +575,12 @@ footer {
         line-height: 2rem;
     }
 
+    .extra {
+        padding: 0.5rem;
+    }
+
     .extra-text p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .extra-button button {
@@ -577,7 +591,7 @@ footer {
     .extra-button button p {
         margin: 0rem;
         line-height: 1rem;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
@@ -681,17 +695,16 @@ footer {
         line-height: 1rem;
     }
 
-    .extra {
-        padding: 1rem;
-    }
-
     .extra-text p {
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 0.5rem;
     }
 
     .extra-button button {
         width: 10rem;
         height: 3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
     }
     
     .extra-button button p {
@@ -790,23 +803,24 @@ footer {
     }
 
     .extra {
-        padding: 0.5rem;
+        padding: 0.2rem;
     }
 
     .extra-text p {
-        font-size: 8px;
+        font-size: 8.5px;
         line-height: 0.8rem;
         margin: 0rem;
     }
 
     .extra-button button {
-        width: 6rem;
+        width: 7rem;
         height: 2rem;
+        margin: 0.2rem;
     }
     
     .extra-button button p {
         line-height: 0.5rem;
-        font-size: 6px;
+        font-size: 7px;
     }
 
     /* FINAL */
