@@ -273,7 +273,7 @@ main .cards-project-1 {
 tbody .number {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-start;
     width: 20rem;
 }
