@@ -253,7 +253,7 @@ main .cards-project-1 {
 .process {
     color: white;
     display: flex;
-    height: 50rem;
+    height: 60rem;
     align-items: center;
     justify-content: center;
 }
@@ -689,10 +689,6 @@ footer {
     }
 
     /* PROCESO */
-
-    .process {
-        height: 45rem;
-    }
 
     tbody h2 {
         font-size: 90px;
@@ -1226,7 +1222,7 @@ footer {
     /* PROCESO */
 
     .process {
-        height: 40rem;
+        height: 50rem;
     }
 
     tbody .number {
@@ -1667,7 +1663,7 @@ footer {
     /* PROCESO */
 
     .process {
-        height: 35rem;
+        height: 40rem;
     }
     
     tbody h2 {
@@ -1974,7 +1970,7 @@ footer {
     /* PROCESO */
 
     .process {
-        height: 30rem;
+        height: 35rem;
     }
         
     tbody .number {
@@ -2166,7 +2162,7 @@ footer {
     /* PROCESO */
 
     .process {
-        height: 25rem;
+        height: 30rem;
     }
         
     tbody .number {
