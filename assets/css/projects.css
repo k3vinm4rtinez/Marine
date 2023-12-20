@@ -313,6 +313,7 @@ tbody p {
     display: flex;
     align-items: flex-start;
     padding-left: 3rem!important;
+    position: relative;
 }
 
 .pb-3 .mini-1 {
@@ -335,11 +336,8 @@ tbody p {
     font-style: italic;
 }
 
-.start-arrow {
-    position: absolute;
-    bottom: -10rem;
-    width: 6rem;
-    z-index: 1;
+.invisible {
+    visibility: hidden;
 }
 
 /* EMPECEMOS */
@@ -694,10 +692,6 @@ footer {
 
     .process {
         height: 45rem;
-    }
-
-    tbody .number {
-
     }
 
     tbody h2 {
@@ -1283,6 +1277,10 @@ footer {
         font-size: 10px;
     }
 
+    .mini-1, .mini-2 {
+        display: none;
+    }
+
     /* EMPECEMOS */
 
     .start {
@@ -1669,9 +1667,6 @@ footer {
 
     .process {
         height: 35rem;
-    }
-    
-    tbody .number {
     }
     
     tbody h2 {
