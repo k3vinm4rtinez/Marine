@@ -588,11 +588,12 @@ footer .container-icons img:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 5rem;
+        width: 3.5rem;
+        transform: rotate(360deg);
     }
 
     .home-mobile img {
-        width: 3rem;
+        width: 100%;
     }
 
     /* BURGER */
