@@ -625,7 +625,7 @@ footer .container-icons img:hover {
         border: none;
         padding-left: 1rem;
         padding-right: 1rem;
-        height: auto;
+        height: 5rem;
     }
 
     #burger-open img, #burger-close img {
