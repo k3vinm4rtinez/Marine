@@ -258,32 +258,36 @@ main .cards-project-1 {
     justify-content: center;
 }
 
-.process-numbers .number {
+.process tbody {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    margin-bottom: 2rem;
 }
 
-.process-numbers h2 {
+.process tbody tr {
+    display: flex;
+    align-items: center;
+}
+
+tbody .number {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20rem;
+}
+
+tbody h2 {
     font-size: 110px;
     margin: 0px;
 }
 
-.process-numbers p {
+tbody p {
     font-size: 30px;
     margin-bottom: 1.2rem;
     margin-left: 0.5rem;
     line-height: 2rem;
-}
-
-.process-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-left: 5rem;
-    margin-bottom: 2rem;
 }
 
 .process-block {
@@ -291,7 +295,6 @@ main .cards-project-1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
     width: 550px;
     height: 130px;
     padding: 0rem!important;
@@ -693,24 +696,20 @@ footer {
         height: 45rem;
     }
 
-    .process-numbers .number {
-        margin-bottom: 2rem;
+    tbody .number {
+
     }
 
-    .process-numbers h2 {
+    tbody h2 {
         font-size: 90px;
         margin: 0px;
     }
 
-    .process-numbers p {
+    tbody p {
         font-size: 22px;
         margin-bottom: 1.1rem;
         margin-left: 0.5rem;
         line-height: 1.5rem;
-    }
-
-    .process-info {
-        margin-bottom: 2rem;
     }
 
     .process-block {
@@ -1236,16 +1235,16 @@ footer {
         height: 40rem;
     }
 
-    .process-numbers .number {
-        margin-bottom: 2rem;
+    tbody .number {
+        width: 14rem;
     }
 
-    .process-numbers h2 {
+    tbody h2 {
         font-size: 70px;
         margin: 0px;
     }
 
-    .process-numbers p {
+    tbody p {
         font-size: 16px;
         margin-bottom: 0.8rem;
         margin-left: 0.5rem;
@@ -1672,16 +1671,15 @@ footer {
         height: 35rem;
     }
     
-    .process-numbers .number {
-        margin-bottom: 2rem;
+    tbody .number {
     }
     
-    .process-numbers h2 {
+    tbody h2 {
         font-size: 60px;
         margin: 0px;
     }
     
-    .process-numbers p {
+    tbody p {
         font-size: 12px;
         margin-bottom: 0.8rem;
         margin-left: 0.5rem;
@@ -1983,16 +1981,16 @@ footer {
         height: 30rem;
     }
         
-    .process-numbers .number {
-        margin-bottom: 2rem;
+    tbody .number {
+        width: 8rem;
     }
         
-    .process-numbers h2 {
+    tbody h2 {
         font-size: 45px;
         margin: 0px;
     }
         
-    .process-numbers p {
+    tbody p {
         font-size: 10px;
         margin-bottom: 0.6rem;
         margin-left: 0.5rem;
@@ -2175,16 +2173,16 @@ footer {
         height: 25rem;
     }
         
-    .process-numbers .number {
-        margin-bottom: 2rem;
+    tbody .number {
+        width: 6.5rem;
     }
         
-    .process-numbers h2 {
+    tbody h2 {
         font-size: 38px;
         margin: 0px;
     }
         
-    .process-numbers p {
+    tbody p {
         font-size: 10px;
         margin-bottom: 0.5rem;
         margin-left: 0.5rem;
