@@ -920,3 +920,17 @@ footer .container-icons img:hover {
 
     
 }
+
+@media (max-height: 800px) {
+
+    main .container-projects-1 {
+        height: 110vh!important;
+    }
+}
+
+@media (max-height: 720px) {
+
+    main .container-projects-1 {
+        height: 120vh!important;
+    }
+}
