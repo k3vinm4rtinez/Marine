@@ -511,9 +511,15 @@ footer .container-icons img:hover {
 
     /* NAV */
 
+    .container-navbar ul {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
     .container-navbar ul li {
         padding-left: 60px;
         padding-right: 60px;
+        font-size: 22px;
     }
 
     .home img {
