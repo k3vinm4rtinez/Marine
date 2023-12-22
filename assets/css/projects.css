@@ -2251,3 +2251,10 @@ footer {
 
 
 }
+
+@media (max-height: 800px) {
+
+    main .container-projects-1 {
+        height: 800px;
+    }
+}
