@@ -2252,9 +2252,9 @@ footer {
 
 }
 
-@media (max-height: 800px) {
+@media (max-height: 400px) {
 
     main .container-projects-1 {
-        height: 800px;
+        height: 400px;
     }
 }
