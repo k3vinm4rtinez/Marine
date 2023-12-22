@@ -595,48 +595,48 @@ footer {
     /* EL TITULO */
 
     .container-projects-2 .title-2 {
-        height: 22rem;
+        height: 25rem;
     }
 
     .line-1 {
-        width: 15rem;
-        top: 12rem;
+        width: 16rem;
+        top: 12.5rem;
     }
-        
+    
     .line-2 {
         width: 40rem;
         left: 860px;
     }
-    
+
     .uno {
         font-size: 100px;
-        left: 13rem;
-    }
-        
-    .uno span {
-        font-size: 50px;
-    }
-        
-    .dos {
-        font-size: 150px;
-        left: 17.5rem;
-        top: 10.5rem;
-    }
-        
-    .tres {
-        left: 51rem;
-        font-size: 50px;
-        top: 10rem;
+        left: 13.5rem;
     }
     
+    .uno span {
+        font-size: 55px;
+    }
+    
+    .dos {
+        font-size: 100px;
+        left: 18rem;
+        top: 11rem;
+    }
+    
+    .tres {
+        left: 52rem;
+        font-size: 55px;
+        top: 11rem;
+    }
+
     .tres img {
-        width: 30rem;
+        width: 32rem;
     }
 
     .smile-project {
-        width: 36px;
-        left: 743px;
-        top: 230px;
+        width: 38px;
+        left: 750px;
+        top: 240px;
     }
 
 }
