@@ -262,6 +262,7 @@ main .container-form {
     width: 35%;
     color: #497078;
     padding: 1%;
+    z-index: 1;
 }
 
 main .container-form form {
@@ -328,6 +329,10 @@ main .container-form button {
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+#mimail {
+    opacity: 0;
 }
 
 /* TEXTO */

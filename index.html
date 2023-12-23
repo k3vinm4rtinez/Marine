@@ -88,14 +88,15 @@
                     <h2>¿Empezamos hoy?</h2>
                     <img src="./libs/img/underline-form.png" class="underline-form"/>
                 </div>
-                <form>
+                <form id="form">
                     <p>CONTACTO</p>
-                    <input type="text" placeholder="Nombre"/>
-                    <input type="email" placeholder="Email"/>
-                    <input type="text" placeholder="Teléfono"/>
-                    <textarea placeholder="Mensaje" rows="2"></textarea>
+                    <input type="text" placeholder="Nombre" name="name"/>
+                    <input type="email" placeholder="Email" name="email"/>
+                    <input type="number" placeholder="Teléfono" name="phone"/>
+                    <textarea placeholder="Mensaje" rows="2" name="message"></textarea>
+                    <button type="submit">ENVIAR</button>
                 </form>
-                <button>ENVIAR</button>
+                <a href="mailto:marinedesign.uy@gmail.com" id="mimail">Mail</a>
             </div>
         </div>
     </main>
