@@ -892,3 +892,126 @@ footer {
         font-size: 12px;
     }
 }
+
+@media (max-width: 400px) {
+
+    /* HEADER */
+
+    header {
+        padding: 7rem 0rem 7rem 0rem;
+    }
+
+    .first-text h1 {
+        font-size:  58px;
+    }
+
+    .first-text h1 img {
+        display: none;
+    }
+ 
+    .first-text .one {
+        font-size: 55px;
+    }
+
+    .first-text .one span {
+        display: none;
+    }
+
+    .first-text .two::before {
+        display: block;
+    }
+
+    .first-text .two span {
+        font-size: 60px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .first-text .three span {
+        display: none;
+    }
+
+    .card {
+        width: 100px;
+        height: 100px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    /* HEADER */
+
+    header {
+        padding: 8rem 0rem 8rem 0rem;
+    }
+
+    .first-text h1 {
+        font-size:  50px;
+        line-height: 4rem;
+    }
+
+    .first-text .one::after {
+        transform: scale(0.04) rotate(10deg);
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        width: 85px;
+        height: 85px;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+
+    /* MAIN */
+
+    main .container-plans .content-plan .title-plan h1 {
+        font-size: 14px;
+    }
+
+    main .container-plans .info-plan ul {
+        font-size: 7px;
+    }
+
+    main .container-plans .info-plan .info-button button {
+        width: 8rem;
+        padding: 0.5rem;
+        font-size: 10px;
+        line-height: 0.8rem;
+    }
+    
+    .extra .extra-text p {
+        font-size: 7px;
+    }
+
+    .extra .extra-button button {
+        width: 5rem;
+    }
+
+    .extra .extra-button button p {
+        font-size: 6px;
+        line-height: 0.4rem;
+    }
+
+    .final .final-text h2 {
+        font-size: 11px;
+    }
+
+    .final .final-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 340px) {
+
+}
