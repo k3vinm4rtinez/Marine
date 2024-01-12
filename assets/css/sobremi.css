@@ -1,0 +1,155 @@
+/* HEADER */
+
+header {
+    height: 0rem;
+}
+
+/* MAIN */
+
+.container-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 100px;
+}
+
+.presentation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+    line-height: 8rem;
+    position: relative;
+}
+
+.presentation-text h1 {
+    font-size: 220px;
+    color: #497078;
+    position: relative;
+}
+
+.presentation-text h1 img {
+    width: 3.5rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 17.5rem;
+}
+
+.presentation-text h2 {
+    font-size: 85px;
+    color: #8aa9a7;
+    position: relative;
+    margin-left: 4rem;
+    height: 13rem;
+}
+
+.presentation-text span {
+    position: absolute;
+    font-size: 50px;
+    color: #497078;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+.presentation-text span img {
+    position: absolute;
+    width: 1.5rem;
+    bottom: 4.2rem;
+    left: 19.4rem;
+}
+
+.presentation-text img {
+    position: absolute;
+    width: 50rem;
+    bottom: 6rem;
+    left: 37rem;
+}
+
+@media (max-width: 1600px) {
+
+    /* TITULO */
+
+    .presentation-text {
+        line-height: 7rem;
+    }
+
+    .presentation-text h1 {
+        font-size: 190px;
+    }
+
+    .presentation-text h1 img {
+        width: 3rem;
+        bottom: 1.3rem;
+        left: 15rem;
+    }
+
+    .presentation-text h2 {
+        font-size: 75px;
+        height: 11rem;
+        margin-left: 3rem;
+    }
+
+    .presentation-text span {
+        font-size: 40px;
+    }
+
+    .presentation-text span img {
+        width: 1.3rem;
+        bottom: 3.6rem;
+        left: 15.5rem;
+    }
+
+    .presentation-text img {
+        width: 40rem;
+        left: 33rem;
+        bottom: 5rem;
+    }
+
+}
+
+@media (max-width: 1400px) {
+
+    /* TITULO */
+
+    .presentation-text {
+        line-height: 6rem;
+    }
+
+    .presentation-text h1 {
+        font-size: 170px;
+    }
+
+    .presentation-text h1 img {
+        width: 2.7rem;
+        bottom: 1rem;
+        left: 13.5rem;
+    }
+
+    .presentation-text h2 {
+        font-size: 65px;
+        height: 10rem;
+        margin-left: 3rem;
+    }
+
+    .presentation-text span {
+        font-size: 35px;
+    }
+
+    .presentation-text span img {
+        width: 1.1rem;
+        bottom: 3.2rem;
+        left: 13.6rem;
+    }
+
+    .presentation-text img {
+        width: 35rem;
+        left: 28.5rem;
+        bottom: 4.8rem;
+    }
+
+}
