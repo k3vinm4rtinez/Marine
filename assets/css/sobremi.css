@@ -920,7 +920,58 @@ header {
     }
 
     .pic img {
-        width: 9rem;
+        width: 10rem;
+    }
+
+    .complete-name {
+        bottom: -1.6rem;
+        left: 0.5rem;
+        font-size: 10px;
+    }
+    
+    .complete-name img {
+        width: 0.6rem;
+    }
+
+    .arrow-about-me {
+        display: block;
+    }
+
+    .arrow-about-me {
+        width: 8rem!important;
+        position: absolute;
+        bottom: 9rem;
+        left: 1.7rem;
+    }
+
+}
+
+@media (max-width: 370px) {
+
+    /* INFO */
+
+    .presentation-info {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .skills {
+        height: 6rem;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5rem;
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .pic {
+        width: 100%;
+        justify-content: flex-end;
+        padding-right: 3rem;
+    }
+
+    .pic img {
+        width: 9.5rem;
     }
 
     .complete-name {
@@ -943,10 +994,6 @@ header {
         bottom: 9rem;
         left: 1.7rem;
     }
-
-}
-
-@media (max-width: 370px) {
 
 
 }
