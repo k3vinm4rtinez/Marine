@@ -27,7 +27,7 @@ header {
     position: relative;
     padding-left: 7rem;
     padding-right: 7rem;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .presentation-text h1 {
@@ -733,8 +733,54 @@ header {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 470px) {
 
+    /* INFO */
+
+    .presentation-info {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .skills {
+        height: 10rem;
+        width: 100%;
+        font-size: 20px;
+        line-height: 2.2rem;
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .pic {
+        width: 100%;
+        justify-content: flex-end;
+        padding-right: 3rem;
+    }
+
+    .pic img {
+        width: 12rem;
+    }
+
+    .complete-name {
+        bottom: -2.2rem;
+        left: 0.5rem;
+        font-size: 10px;
+    }
+    
+    .complete-name img {
+        width: 0.6rem;
+    }
+
+    .arrow-about-me {
+        display: block;
+    }
+
+    .arrow-about-me {
+        width: 11rem!important;
+        position: absolute;
+        bottom: 32rem;
+        left: 3rem;
+    }
 
 }
 
