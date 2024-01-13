@@ -80,6 +80,7 @@ header {
     align-items: center;
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 .skills {
@@ -535,7 +536,7 @@ header {
     .arrow-about-me {
         width: 14rem!important;
         position: absolute;
-        bottom: 23rem;
+        bottom: 13rem;
         left: 4rem;
     }
 
@@ -611,7 +612,7 @@ header {
     }
 
     .pic img {
-        width: 14rem;
+        width: 15rem;
     }
 
     .complete-name {
@@ -631,8 +632,8 @@ header {
     .arrow-about-me {
         width: 12rem!important;
         position: absolute;
-        bottom: 26rem;
-        left: 4rem;
+        bottom: 13.5rem;
+        left: 3.8rem;
     }
 
 }
@@ -727,7 +728,7 @@ header {
     .arrow-about-me {
         width: 11rem!important;
         position: absolute;
-        bottom: 32rem;
+        bottom: 12.5rem;
         left: 3rem;
     }
 
@@ -786,7 +787,7 @@ header {
     .arrow-about-me {
         width: 10rem!important;
         position: absolute;
-        bottom: 33.5rem;
+        bottom: 10.5rem;
         left: 2rem;
     }
 
@@ -881,7 +882,7 @@ header {
     .arrow-about-me {
         width: 9rem!important;
         position: absolute;
-        bottom: 37rem;
+        bottom: 10rem;
         left: 2rem;
     }
 
@@ -939,7 +940,7 @@ header {
     .arrow-about-me {
         width: 7.5rem!important;
         position: absolute;
-        bottom: 38.5rem;
+        bottom: 9rem;
         left: 1.7rem;
     }
 
