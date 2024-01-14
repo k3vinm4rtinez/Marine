@@ -911,9 +911,9 @@ header {
         border-radius: 5rem;
         padding: 0.5rem;
         font-size: 13px;
-        width: 10rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        width: 9.5rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
     }
 
     .btn-plans {
@@ -921,9 +921,9 @@ header {
         border: solid #497078 2px;
         padding: 0.5rem;
         font-size: 13px;
-        width: 10rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        width: 9.5rem;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
     }
 
 }
