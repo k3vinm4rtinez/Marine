@@ -892,7 +892,7 @@ header {
     }
 
     .container-question {
-        border: solid #ffff 4px;
+        border: solid #ffff 2px;
         border-radius: 5rem;
         padding: 0.4rem;
         width: 18rem;
