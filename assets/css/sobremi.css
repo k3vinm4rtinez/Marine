@@ -195,11 +195,12 @@ header {
     border: none;
     color: white;
     background-color: #497078;
-    padding: 0.8rem;
+    padding: 1rem;
     font-size: 30px;
-    width: 20rem;
+    width: 21rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    font-family: 'Montserrat';
 }
 
 .btn-plans {
@@ -207,11 +208,12 @@ header {
     border: solid #497078 2px;
     color: #497078;
     background-color: transparent;
-    padding: 0.8rem;
+    padding: 1rem;
     font-size: 30px;
-    width: 20rem;
+    width: 21rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    font-family: 'Montserrat';
 }
 
 @media (max-width: 1850px) {
@@ -564,9 +566,9 @@ header {
 
     .btn-meetings {
         border-radius: 5rem;
-        padding: 0.5rem;
+        padding: 0.8rem;
         font-size: 24px;
-        width: 16rem;
+        width: 17rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
     }
@@ -574,9 +576,9 @@ header {
     .btn-plans {
         border-radius: 5rem;
         border: solid #497078 2px;
-        padding: 0.5rem;
+        padding: 0.8rem;
         font-size: 24px;
-        width: 16rem;
+        width: 17rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
     }
@@ -645,9 +647,9 @@ header {
 
     .btn-meetings {
         border-radius: 5rem;
-        padding: 0.5rem;
+        padding: 0.6rem;
         font-size: 22px;
-        width: 14rem;
+        width: 15rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -655,9 +657,9 @@ header {
     .btn-plans {
         border-radius: 5rem;
         border: solid #497078 2px;
-        padding: 0.5rem;
+        padding: 0.6rem;
         font-size: 22px;
-        width: 14rem;
+        width: 15rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -736,7 +738,7 @@ header {
         border-radius: 5rem;
         padding: 0.5rem;
         font-size: 17px;
-        width: 11rem;
+        width: 12rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -746,7 +748,7 @@ header {
         border: solid #497078 2px;
         padding: 0.5rem;
         font-size: 17px;
-        width: 11rem;
+        width: 12rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -909,7 +911,7 @@ header {
         border-radius: 5rem;
         padding: 0.5rem;
         font-size: 13px;
-        width: 9rem;
+        width: 10rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
@@ -919,7 +921,7 @@ header {
         border: solid #497078 2px;
         padding: 0.5rem;
         font-size: 13px;
-        width: 9rem;
+        width: 10rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
