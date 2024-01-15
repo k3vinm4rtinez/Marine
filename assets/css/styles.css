@@ -174,7 +174,7 @@ main .first-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
+    height: 30rem;
     background-color: #8aa9a7;
     padding-right: 10%;
     position: relative;
@@ -841,6 +841,7 @@ footer .container-icons img:hover {
     main .first-content {
         padding: 0px!important;
         padding-top: 20%!important;
+        height: 25rem;
     }
 
     main .first-content .container-first-text {
