@@ -205,7 +205,8 @@ header {
 
 .btn-plans {
     border-radius: 5rem;
-    border: solid #497078 2px;
+    box-shadow: inset 0 0 0 2px #497078;
+    border: none;
     color: #497078;
     background-color: transparent;
     padding: 1rem;
@@ -575,7 +576,7 @@ header {
 
     .btn-plans {
         border-radius: 5rem;
-        border: solid #497078 2px;
+        box-shadow: inset 0 0 0 2px #497078;
         padding: 0.8rem;
         font-size: 24px;
         width: 17rem;
@@ -656,7 +657,7 @@ header {
 
     .btn-plans {
         border-radius: 5rem;
-        border: solid #497078 2px;
+        box-shadow: inset 0 0 0 2px #497078;
         padding: 0.6rem;
         font-size: 22px;
         width: 15rem;
@@ -745,7 +746,7 @@ header {
 
     .btn-plans {
         border-radius: 5rem;
-        border: solid #497078 2px;
+        box-shadow: inset 0 0 0 2px #497078;
         padding: 0.5rem;
         font-size: 17px;
         width: 12rem;
@@ -918,7 +919,7 @@ header {
 
     .btn-plans {
         border-radius: 5rem;
-        border: solid #497078 2px;
+        box-shadow: inset 0 0 0 2px #497078;
         padding: 0.5rem;
         font-size: 13px;
         width: 9.5rem;
@@ -1395,7 +1396,7 @@ header {
 
     .btn-plans {
         border-radius: 5rem;
-        border: solid #497078 2px;
+        box-shadow: inset 0 0 0 2px #497078;
         padding: 0.5rem;
         font-size: 10px;
         width: 7.5rem;
