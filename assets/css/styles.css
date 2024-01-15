@@ -280,6 +280,7 @@ main .container-form form input, textarea {
     padding: 10px;
     width: 90%;
     resize: none;
+    font-family: 'Montserrat';
 }
 
 main .container-form .container-title-form {
