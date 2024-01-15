@@ -336,6 +336,11 @@ main .container-form button {
     opacity: 0;
 }
 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+
 /* TEXTO */
 
 main .second-content .container-text {
