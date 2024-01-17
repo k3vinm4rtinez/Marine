@@ -95,8 +95,8 @@ main .cards-project-1 {
     font-size: 35px;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: absolute;
-    right: 0%;
-    bottom: 0%;
+    right: 0%!important;
+    bottom: 0%!important;
     color: white;
     background-color: transparent;
     border: none;
@@ -1101,11 +1101,6 @@ footer {
 
     /* Primer texto */
 
-    main .line {
-        display: block;
-        width: 26px;
-    }
-
     main .text-project-1 {
         display: flex;
         align-items: center;
@@ -1127,13 +1122,24 @@ footer {
         display: none;
     }
 
-    main .card {
+    .card {
         height: 140px;
         margin: 0%;
         margin-bottom: 5%;
         margin-top: 5%;
         width: 100%;
         z-index: 1;
+    }
+
+    .card button {
+        position: relative;
+    }
+
+    .card button i {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+        font-size: 2rem;
     }
 
     .card:hover {
@@ -1787,8 +1793,16 @@ footer {
         z-index: 1;
     }
 
+    .card button i {
+        font-size: 1.5rem;
+    }
+
     .card:hover {
         transform: scale(1);
+    }
+
+    .card__content h1 {
+        font-size: 18px;
     }
 
     /* mySlider */
@@ -2087,7 +2101,7 @@ footer {
     }
     
     .card__content .card__title {
-        font-size: 10px;
+        font-size: 6px;
     }
     
     .card__content .card__description {
