@@ -22,12 +22,10 @@ body {
     left: 0;
     background-color: white;
     z-index: 100000;
-    clip-path: circle(150% at 100% 0);
-    transition: clip-path 1s ease-in-out;
   }
 
   .loader2 {
-    clip-path: circle(0% at 100% 0);
+    display: none;
   }
 
   .loader svg {

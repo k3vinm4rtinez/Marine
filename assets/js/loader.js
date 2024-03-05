@@ -1,4 +1,3 @@
-window.addEventListener("load", function(){
-    this.console.log("Entre")
+window.addEventListener("DOMContentLoaded", () =>{
     document.getElementById("loader").classList.toggle("loader2")
 })
