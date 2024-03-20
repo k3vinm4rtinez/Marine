@@ -275,6 +275,7 @@ main .cards-project-1 {
 .process tbody tr {
     display: flex;
     align-items: center;
+    visibility: hidden;
 }
 
 tbody .number {
@@ -421,6 +422,19 @@ tbody p {
 
 footer {
     display: flex;
+}
+
+/* ANIMACIONES */
+
+@keyframes aparecer {
+    from{
+        transform: translateY(-50%);
+        opacity: 0%;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 100%;
+    }
 }
 
 @media (max-width: 1800px) {
