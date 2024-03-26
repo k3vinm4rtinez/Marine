@@ -315,6 +315,7 @@ main .first-content .container-tablet {
     width: 40vw;
     display: flex;
     align-items: center;
+    visibility: hidden;
 }
 
 main .first-content .container-tablet .tablet {
@@ -531,6 +532,19 @@ footer .container-icons img {
 
 footer .container-icons img:hover {
     transform: scale(1.05);
+}
+
+/* ANIMACIONES */
+
+@keyframes tablet {
+    from{
+        transform: translateX(-50%);
+        opacity: 0%;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 100%;
+    }
 }
 
 @media (max-width: 1500px) {

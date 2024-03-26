@@ -89,6 +89,7 @@ header {
 
 .container-plans {
     background-color: #497078;
+    overflow: hidden;
 }
 
 .content-plan {
@@ -140,6 +141,7 @@ header {
     padding-right: 1rem;
     height: 100%;
     width: 35%;
+    visibility: hidden;
 }
 
 .title-plan h1 {
@@ -152,6 +154,7 @@ header {
     height: auto;
     width: 65%;
     padding: 1rem;
+    visibility: hidden;
 }
 
 .info-plan ul {
@@ -269,6 +272,27 @@ header {
 footer {
     display: flex;
 }
+
+/* ANIMACIONES */
+
+@keyframes plan1 {
+    from{
+        transform: translateX(50%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes plan2 {
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
 
 @media (max-width: 1600px) {
 
