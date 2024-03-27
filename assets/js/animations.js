@@ -111,7 +111,7 @@ window.addEventListener('scroll', function(){
 
     let positionPlan = plan2.getBoundingClientRect().top;
 
-    if(positionPlan < (window.scrollY/1.5)){
+    if(positionPlan < (window.scrollY/1.2)){
         plan2.style.animation = "plan2 1s ease-out";
         plan2.style.visibility = "visible";
         titlePlan2.style.animation = "plan1 1s ease-out";
@@ -124,7 +124,7 @@ window.addEventListener('scroll', function(){
 
     let positionPlan = plan3.getBoundingClientRect().top;
 
-    if(positionPlan < (window.scrollY/2)){
+    if(positionPlan < (window.scrollY/1.4)){
         plan3.style.animation = "plan1 1s ease-out";
         plan3.style.visibility = "visible";
         titlePlan3.style.animation = "plan2 1s ease-out";
